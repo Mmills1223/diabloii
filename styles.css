@@ -46,6 +46,44 @@ nav ul li a {
 nav ul li a:hover {
   background-color: #8b0000;
 }
+/* Sidebar Navigation */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 180px;
+  height: 100%;
+  background-color: #1a1a1a;
+  border-right: 2px solid #a00;
+  padding-top: 2rem;
+  z-index: 1000;
+  overflow-y: auto;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.sidebar li {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.sidebar a {
+  font-family: 'DiabloFont', serif;
+  color: #f5d042;
+  text-decoration: none;
+  font-size: 1.1rem;
+  display: block;
+  padding: 0.5rem 1rem;
+  transition: background 0.3s;
+}
+
+.sidebar a:hover {
+  background-color: #300000;
+  color: #fff;
+}
 
 /* Section Styling */
 section {
@@ -56,6 +94,14 @@ section {
   border: 2px solid #8b0000;
   border-radius: 10px;
   box-shadow: 0 0 20px #3b0000;
+}
+body {
+  margin-left: 180px; /* same width as sidebar */
+  background-color: #000;
+  color: #ccc;
+  font-family: 'DiabloFont', serif;
+  line-height: 1.5;
+  padding: 1rem;
 }
 
 section h2 {
@@ -154,3 +200,4 @@ footer {
   border-top: 3px solid #8b0000;
   font-size: 0.9rem;
 }
+
