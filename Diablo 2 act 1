@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Act I: The Sightless Eye - Diablo II Bestiary</title>
+  <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'MedievalSharp', cursive;
+      background-color: #0d0d0d;
+      color: #f5f5f5;
+      padding: 20px;
+    }
+    h1, h2 {
+      color: #ff0000;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+    th, td {
+      border: 1px solid #888;
+      padding: 8px;
+      text-align: center;
+    }
+    .images img {
+      height: 120px;
+      margin-right: 10px;
+    }
+    ul {
+      list-style-type: square;
+      margin-left: 20px;
+    }
+    article {
+      margin-bottom: 60px;
+      border-bottom: 2px solid #444;
+      padding-bottom: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Act I: The Sightless Eye</h1>
+
+  <article id="skeleton">
+    <header>
+      <h2>Skeleton</h2>
+      <p><strong>Type:</strong> Undead | <strong>AI:</strong> Melee / Ranged</p>
+      <p><strong>Spawn Locations:</strong> Den of Evil, Crypt, Mausoleum, Tower Cellar</p>
+    </header>
+    <section class="images">
+      <img src="images/Skeleton_classic_sprite.png" alt="Skeleton Classic Sprite">
+      <img src="images/Skeleton_d2r_render.png" alt="Skeleton D2R Render">
+    </section>
+    <section>
+      <h3>Stats by Difficulty</h3>
+      <table>
+        <thead>
+          <tr><th>Difficulty</th><th>Level</th><th>Health</th><th>Base Damage</th><th>Elemental Damage</th><th>Resistances</th><th>Immunities</th><th>Special Abilities</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Normal</td><td>2–4</td><td>20–35</td><td>1–4</td><td>None</td><td>Cold: 30%</td><td>None</td><td>None</td></tr>
+          <tr><td>Nightmare</td><td>36</td><td>160–200</td><td>14–24</td><td>None</td><td>Cold: 60%</td><td>None</td><td>May use bows</td></tr>
+          <tr><td>Hell</td><td>67</td><td>780–900</td><td>40–58</td><td>None</td><td>Cold: 90%</td><td>Cold</td><td>May use bows</td></tr>
+        </tbody>
+      </table>
+    </section>
+    <section>
+      <h3>Lore</h3>
+      <p>Animated bones of the dead, Skeletons roam catacombs and graveyards. Some wield swords and shields, others loose arrows from a distance, proving surprisingly coordinated.</p>
+    </section>
+    <section>
+      <h3>Notable Drops</h3>
+      <ul>
+        <li><strong>Normal:</strong> Arrows, Buckler, Gold (5–15)</li>
+        <li><strong>Nightmare:</strong> Magic Short Sword, Light Crossbow, Gold (30–60)</li>
+        <li><strong>Hell:</strong> Rare Bone Wand, Rune (El–Ral), Gold (100–200)</li>
+      </ul>
+    </section>
+    <section>
+      <h3>Possible Affixes</h3>
+      <ul>
+        <li><strong>Prefixes:</strong>
+          <ul>
+            <li><strong>Cold Enchanted</strong> – Adds cold damage and slows targets</li>
+            <li><strong>Extra Fast</strong> – Increased movement and attack speed</li>
+            <li><strong>Magic Resistant</strong> – +40% all elemental resistances</li>
+          </ul>
+        </li>
+        <li><strong>Suffixes:</strong>
+          <ul>
+            <li><strong>of Might</strong> – Grants aura to nearby minions that boosts damage</li>
+            <li><strong>the Archer</strong> – Increases ranged accuracy</li>
+            <li><strong>of the Grave</strong> – Increases resistance to Holy damage (if applicable)</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+  </article>
+
+  <article id="fallen">
+    <header>
+      <h2>Fallen</h2>
+      <p><strong>Type:</strong> Demon | <strong>AI:</strong> Fast Melee</p>
+      <p><strong>Spawn Locations:</strong> Blood Moor, Cold Plains, Stony Field</p>
+    </header>
+    <section class="images">
+      <img src="images/Fallen_classic_sprite.png" alt="Fallen Classic Sprite">
+      <img src="images/Fallen_d2r_render.png" alt="Fallen D2R Render">
+    </section>
+    <section>
+      <h3>Stats by Difficulty</h3>
+      <table>
+        <thead>
+          <tr><th>Difficulty</th><th>Level</th><th>Health</th><th>Base Damage</th><th>Elemental Damage</th><th>Resistances</th><th>Immunities</th><th>Special Abilities</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Normal</td><td>1–3</td><td>15–30</td><td>1–2</td><td>None</td><td>Fire: 20%</td><td>None</td><td>Flees when an ally dies</td></tr>
+          <tr><td>Nightmare</td><td>36</td><td>120–180</td><td>14–22</td><td>None</td><td>Fire: 50%</td><td>None</td><td>Flees when an ally dies</td></tr>
+          <tr><td>Hell</td><td>67</td><td>720–900</td><td>38–52</td><td>None</td><td>Fire: 75%</td><td>Fire</td><td>Flees when an ally dies</td></tr>
+        </tbody>
+      </table>
+    </section>
+    <section>
+      <h3>Lore</h3>
+      <p>These impish demons are cowardly by nature, often scattering when one of their kind falls. They roam the wilds in bands, harassing travelers and returning in greater numbers when resurrected by shamans.</p>
+    </section>
+    <section>
+      <h3>Notable Drops</h3>
+      <ul>
+        <li><strong>Normal:</strong> Crude Dagger, Minor Healing Potion, Gold (5–10)</li>
+        <li><strong>Nightmare:</strong> Magic Dagger, Mana Potion, Gold (20–50)</li>
+        <li><strong>Hell:</strong> Rare Dagger, Small Charm, Gold (100–180)</li>
+      </ul>
+    </section>
+    <section>
+      <h3>Possible Affixes</h3>
+      <ul>
+        <li><strong>Prefixes:</strong>
+          <ul>
+            <li><strong>Fire Enchanted</strong> – Adds fire damage and may explode on death</li>
+            <li><strong>Spectral Hit</strong> – Deals random elemental damage on hit</li>
+            <li><strong>Extra Fast</strong> – Movement and attack speed boosted</li>
+          </ul>
+        </li>
+        <li><strong>Suffixes:</strong>
+          <ul>
+            <li><strong>of the Leech</strong> – Steals life on hit</li>
+            <li><strong>the Skittery</strong> – Increased chance to flee</li>
+            <li><strong>of Flame</strong> – Deals additional fire damage</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+  </article>
+
+<article id="zombie">
+  <header>
+    <h2>Zombie</h2>
+    <p><strong>Type:</strong> Undead | <strong>AI:</strong> Slow Melee</p>
+    <p><strong>Spawn Locations:</strong> Blood Moor, Cold Plains</p>
+  </header>
+  <section class="images">
+    <img src="images/Zombie_classic_sprite.png" alt="Zombie Classic Sprite">
+    <img src="images/Zombie_d2r_render.png" alt="Zombie D2R Render">
+  </section>
+  <section>
+    <h3>Stats by Difficulty</h3>
+    <table>
+      <thead>
+        <tr><th>Difficulty</th><th>Level</th><th>Health</th><th>Base Damage</th><th>Elemental Damage</th><th>Resistances</th><th>Immunities</th><th>Special Abilities</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Normal</td><td>1–3</td><td>25–40</td><td>2–4</td><td>Poison: 1–2</td><td>Poison: 20%</td><td>None</td><td>Slow movement and attack</td></tr>
+        <tr><td>Nightmare</td><td>36</td><td>180–220</td><td>15–22</td><td>Poison: 3–6</td><td>Poison: 60%</td><td>None</td><td>Slow movement and attack</td></tr>
+        <tr><td>Hell</td><td>67</td><td>800–960</td><td>42–58</td><td>Poison: 10–14</td><td>Poison: 100%</td><td>Poison</td><td>Slow movement and attack</td></tr>
+      </tbody>
+    </table>
+  </section>
+  <section>
+    <h3>Lore</h3>
+    <p>Once human, these creatures now serve darkness, mindlessly shambling across the wilds. Their toxic presence and relentless trudging mark them as a true plague upon Sanctuary’s borders.</p>
+  </section>
+  <section>
+    <h3>Notable Drops</h3>
+    <ul>
+      <li><strong>Normal:</strong> Minor Healing Potion, Dagger, Gold (6–12)</li>
+      <li><strong>Nightmare:</strong> Magic Buckler, Rejuvenation Potion, Gold (30–75)</li>
+      <li><strong>Hell:</strong> Rare Throwing Knife, Jewel, Rune (Nef–Amn), Gold (120–210)</li>
+    </ul>
+  </section>
+  <section>
+    <h3>Possible Affixes</h3>
+    <ul>
+      <li><strong>Prefixes:</strong>
+        <ul>
+          <li><strong>Poison Enchanted</strong> – Deals poison damage over time</li>
+          <li><strong>Extra Strong</strong> – Boosts base damage significantly</li>
+          <li><strong>Cursed</strong> – Applies Amplify Damage curse on hit</li>
+        </ul>
+      </li>
+      <li><strong>Suffixes:</strong>
+        <ul>
+          <li><strong>of Rot</strong> – Adds toxic damage cloud on death</li>
+          <li><strong>the Festering</strong> – Spreads a contagious debuff</li>
+          <li><strong>of Plague</strong> – Enhanced poison resistance</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+</article>
+
+<article id="fallen-shaman">
+  <header>
+    <h2>Fallen Shaman</h2>
+    <p><strong>Type:</strong> Demon | <strong>AI:</strong> Ranged Caster</p>
+    <p><strong>Spawn Locations:</strong> Blood Moor, Cold Plains, Stony Field</p>
+  </header>
+  <section class="images">
+    <img src="images/FallenShaman_classic_sprite.png" alt="Fallen Shaman Classic Sprite">
+    <img src="images/FallenShaman_d2r_render.png" alt="Fallen Shaman D2R Render">
+  </section>
+  <section>
+    <h3>Stats by Difficulty</h3>
+    <table>
+      <thead>
+        <tr><th>Difficulty</th><th>Level</th><th>Health</th><th>Base Damage</th><th>Elemental Damage</th><th>Resistances</th><th>Immunities</th><th>Special Abilities</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Normal</td><td>2–4</td><td>40–60</td><td>2–4</td><td>Fireball: 4–8</td><td>Fire: 40%</td><td>None</td><td>Revives Fallen, casts fireballs</td></tr>
+        <tr><td>Nightmare</td><td>38</td><td>200–280</td><td>12–18</td><td>Fireball: 15–30</td><td>Fire: 80%</td><td>None</td><td>Revives Fallen, casts fireballs</td></tr>
+        <tr><td>Hell</td><td>70</td><td>850–980</td><td>34–48</td><td>Fireball: 40–65</td><td>Fire: 100%</td><td>Fire</td><td>Revives Fallen, casts fireballs</td></tr>
+      </tbody>
+    </table>
+  </section>
+  <section>
+    <h3>Lore</h3>
+    <p>The twisted spiritual leaders of the Fallen tribes, Shamans command lesser demons and breathe fire upon enemies. Most dangerously, they raise slain Fallen, sustaining the horde indefinitely.</p>
+  </section>
+  <section>
+    <h3>Notable Drops</h3>
+    <ul>
+      <li><strong>Normal:</strong> Minor Mana Potion, Scepter, Gold (10–20)</li>
+      <li><strong>Nightmare:</strong> Magic Wand, Mana Potion, Gold (50–100)</li>
+      <li><strong>Hell:</strong> Rare Wand, Small Charm, Rune (Tal–Ral), Gold (150–220)</li>
+    </ul>
+  </section>
+  <section>
+    <h3>Possible Affixes</h3>
+    <ul>
+      <li><strong>Prefixes:</strong>
+        <ul>
+          <li><strong>Fire Enchanted</strong> – Enhanced fireball damage, explodes on death</li>
+          <li><strong>Teleportation</strong> – Can blink short distances</li>
+          <li><strong>Magic Resistant</strong> – +40% all elemental resistances</li>
+        </ul>
+      </li>
+      <li><strong>Suffixes:</strong>
+        <ul>
+          <li><strong>of Flames</strong> – Increases fire damage output</li>
+          <li><strong>the Infernal</strong> – Fire aura on proximity</li>
+          <li><strong>of Resurgence</strong> – Revives allies faster</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+</article>
+
+<article id="corrupted-rogue">
+  <header>
+    <h2>Corrupted Rogue</h2>
+    <p><strong>Type:</strong> Demon | <strong>AI:</strong> Ranged Archer</p>
+    <p><strong>Spawn Locations:</strong> Cold Plains, Burial Grounds, Underground Passage</p>
+  </header>
+  <section class="images">
+    <img src="images/CorruptedRogue_classic_sprite.png" alt="Corrupted Rogue Classic Sprite">
+    <img src="images/CorruptedRogue_d2r_render.png" alt="Corrupted Rogue D2R Render">
+  </section>
+  <section>
+    <h3>Stats by Difficulty</h3>
+    <table>
+      <thead>
+        <tr><th>Difficulty</th><th>Level</th><th>Health</th><th>Base Damage</th><th>Elemental Damage</th><th>Resistances</th><th>Immunities</th><th>Special Abilities</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Normal</td><td>3–5</td><td>30–50</td><td>3–6</td><td>Cold Arrow: 1–3</td><td>Cold: 25%</td><td>None</td><td>Ranged cold attacks</td></tr>
+        <tr><td>Nightmare</td><td>39</td><td>220–300</td><td>18–28</td><td>Cold Arrow: 5–10</td><td>Cold: 60%</td><td>None</td><td>Ranged cold attacks</td></tr>
+        <tr><td>Hell</td><td>72</td><td>950–1050</td><td>44–62</td><td>Cold Arrow: 15–20</td><td>Cold: 100%</td><td>Cold</td><td>Ranged cold attacks</td></tr>
+      </tbody>
+    </table>
+  </section>
+  <section>
+    <h3>Lore</h3>
+    <p>These once-noble Rogues now serve the demonic cults, corrupted in mind and soul. With deadly precision, they fire freezing arrows at intruders who threaten their new dark masters.</p>
+  </section>
+  <section>
+    <h3>Notable Drops</h3>
+    <ul>
+      <li><strong>Normal:</strong> Arrows, Short Bow, Minor Cold Resist Charm, Gold (10–20)</li>
+      <li><strong>Nightmare:</strong> Magic Hunter’s Bow, Rejuvenation Potion, Gold (50–100)</li>
+      <li><strong>Hell:</strong> Rare Short War Bow, Cold Resist Grand Charm, Rune (Tal–Shael), Gold (140–220)</li>
+    </ul>
+  </section>
+  <section>
+    <h3>Possible Affixes</h3>
+    <ul>
+      <li><strong>Prefixes:</strong>
+        <ul>
+          <li><strong>Cold Enchanted</strong> – Adds cold damage and slows on hit</li>
+          <li><strong>Extra Fast</strong> – Moves and shoots more quickly</li>
+          <li><strong>Teleportation</strong> – Random blink movement</li>
+        </ul>
+      </li>
+      <li><strong>Suffixes:</strong>
+        <ul>
+          <li><strong>of Frost</strong> – Enhances cold damage</li>
+          <li><strong>the Sniper</strong> – Boosts attack rating and precision</li>
+          <li><strong>of Chilling</strong> – Chance to freeze on hit</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+</article>
+
+<article id="dark-hunter">
+  <header>
+    <h2>Dark Hunter</h2>
+    <p><strong>Type:</strong> Demon | <strong>AI:</strong> Ranged Archer</p>
+    <p><strong>Spawn Locations:</strong> Cold Plains, Underground Passage, Crypt</p>
+  </header>
+  <section class="images">
+    <img src="images/DarkHunter_classic_sprite.png" alt="Dark Hunter Classic Sprite">
+    <img src="images/DarkHunter_d2r_render.png" alt="Dark Hunter D2R Render">
+  </section>
+  <section>
+    <h3>Stats by Difficulty</h3>
+    <table>
+      <thead>
+        <tr><th>Difficulty</th><th>Level</th><th>Health</th><th>Base Damage</th><th>Elemental Damage</th><th>Resistances</th><th>Immunities</th><th>Special Abilities</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Normal</td><td>4–6</td><td>40–60</td><td>4–7</td><td>None</td><td>Poison: 20%</td><td>None</td><td>Precise ranged attacks</td></tr>
+        <tr><td>Nightmare</td><td>40</td><td>240–300</td><td>20–32</td><td>None</td><td>Poison: 50%</td><td>None</td><td>Precise ranged attacks</td></tr>
+        <tr><td>Hell</td><td>74</td><td>980–1100</td><td>46–68</td><td>None</td><td>Poison: 90%</td><td>Poison</td><td>Precise ranged attacks</td></tr>
+      </tbody>
+    </table>
+  </section>
+  <section>
+    <h3>Lore</h3>
+    <p>Once among the proud warrior-scouts of the Sisterhood, these Dark Hunters are now consumed by corruption. They lurk in the shadows, loosing deadly volleys upon those who trespass into their cursed territories.</p>
+  </section>
+  <section>
+    <h3>Notable Drops</h3>
+    <ul>
+      <li><strong>Normal:</strong> Short Bow, Leather Armor, Gold (12–22)</li>
+      <li><strong>Nightmare:</strong> Magic Bow, Stamina Potion, Gold (60–110)</li>
+      <li><strong>Hell:</strong> Rare Composite Bow, Large Charm, Rune (Ort–Sol), Gold (160–240)</li>
+    </ul>
+  </section>
+  <section>
+    <h3>Possible Affixes</h3>
+    <ul>
+      <li><strong>Prefixes:</strong>
+        <ul>
+          <li><strong>Extra Strong</strong> – Boosts damage dealt</li>
+          <li><strong>Magic Resistant</strong> – Higher elemental resistances</li>
+          <li><strong>Spectral Hit</strong> – Deals random elemental damage</li>
+        </ul>
+      </li>
+      <li><strong>Suffixes:</strong>
+        <ul>
+          <li><strong>of the Tracker</strong> – Increases attack rating</li>
+          <li><strong>the Swift</strong> – Faster movement and firing speed</li>
+          <li><strong>of Poison</strong> – Adds poison damage to attacks</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+</article>
+
+<article id="dark-archer">
+  <header>
+    <h2>Dark Archer</h2>
+    <p><strong>Type:</strong> Demon | <strong>AI:</strong> Ranged Archer</p>
+    <p><strong>Spawn Locations:</strong> Burial Grounds, Tower Cellar, Cave Level 1</p>
+  </header>
+  <section class="images">
+    <img src="images/DarkArcher_classic_sprite.png" alt="Dark Archer Classic Sprite">
+    <img src="images/DarkArcher_d2r_render.png" alt="Dark Archer D2R Render">
+  </section>
+  <section>
+    <h3>Stats by Difficulty</h3>
+    <table>
+      <thead>
+        <tr><th>Difficulty</th><th>Level</th><th>Health</th><th>Base Damage</th><th>Elemental Damage</th><th>Resistances</th><th>Immunities</th><th>Special Abilities</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Normal</td><td>5–7</td><td>50–65</td><td>5–8</td><td>None</td><td>Poison: 25%</td><td>None</td><td>High precision ranged shots</td></tr>
+        <tr><td>Nightmare</td><td>41</td><td>250–320</td><td>22–34</td><td>None</td><td>Poison: 60%</td><td>None</td><td>High precision ranged shots</td></tr>
+        <tr><td>Hell</td><td>75</td><td>1000–1150</td><td>48–72</td><td>None</td><td>Poison: 100%</td><td>Poison</td><td>High precision ranged shots</td></tr>
+      </tbody>
+    </table>
+  </section>
+  <section>
+    <h3>Lore</h3>
+    <p>Former members of the Sisterhood corrupted by the forces of evil, Dark Archers now strike with relentless accuracy and cold-hearted cruelty. They're especially deadly when encountered in narrow corridors or open graveyards.</p>
+  </section>
+  <section>
+    <h3>Notable Drops</h3>
+    <ul>
+      <li><strong>Normal:</strong> Long Bow, Minor Stamina Potion, Gold (15–25)</li>
+      <li><strong>Nightmare:</strong> Magic Long Bow, Rejuvenation Potion, Gold (70–120)</li>
+      <li><strong>Hell:</strong> Rare Great Bow, Large Charm, Rune (Tal–Amn), Gold (180–260)</li>
+    </ul>
+  </section>
+  <section>
+    <h3>Possible Affixes</h3>
+    <ul>
+      <li><strong>Prefixes:</strong>
+        <ul>
+          <li><strong>Spectral Hit</strong> – Adds random elemental damage</li>
+          <li><strong>Cold Enchanted</strong> – Adds cold damage and slows target</li>
+          <li><strong>Lightning Enchanted</strong> – Adds lightning damage and discharges on death</li>
+        </ul>
+      </li>
+      <li><strong>Suffixes:</strong>
+        <ul>
+          <li><strong>of the Hawk</strong> – Increases accuracy and projectile speed</li>
+          <li><strong>the Shadow</strong> – Grants increased evasion</li>
+          <li><strong>of Venom</strong> – Adds poison over time to attacks</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+</article>
+
+<article id="carver">
+  <header>
+    <h2>Carver</h2>
+    <p><strong>Type:</strong> Demon | <strong>AI:</strong> Fast Melee</p>
+    <p><strong>Spawn Locations:</strong> Cold Plains, Stony Field, Tristram</p>
+  </header>
+  <section class="images">
+    <img src="images/Carver_classic_sprite.png" alt="Carver Classic Sprite">
+    <img src="images/Carver_d2r_render.png" alt="Carver D2R Render">
+  </section>
+  <section>
+    <h3>Stats by Difficulty</h3>
+    <table>
+      <thead>
+        <tr><th>Difficulty</th><th>Level</th><th>Health</th><th>Base Damage</th><th>Elemental Damage</th><th>Resistances</th><th>Immunities</th><th>Special Abilities</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Normal</td><td>4–6</td><td>35–55</td><td>2–5</td><td>None</td><td>Fire: 20%</td><td>None</td><td>Flees when allies die</td></tr>
+        <tr><td>Nightmare</td><td>40</td><td>150–240</td><td>16–24</td><td>None</td><td>Fire: 50%</td><td>None</td><td>Flees when allies die</td></tr>
+        <tr><td>Hell</td><td>74</td><td>760–880</td><td>44–60</td><td>None</td><td>Fire: 80%</td><td>Fire</td><td>Flees when allies die</td></tr>
+      </tbody>
+    </table>
+  </section>
+  <section>
+    <h3>Lore</h3>
+    <p>Carvers are more vicious cousins of the Fallen. Though still cowardly, they strike with sharpened blades and retreat when one of their own falls. Their leaders — shamans — can raise the dead to fight again.</p>
+  </section>
+  <section>
+    <h3>Notable Drops</h3>
+    <ul>
+      <li><strong>Normal:</strong> Crude Blade, Minor Healing Potion, Gold (6–12)</li>
+      <li><strong>Nightmare:</strong> Magic Dirk, Mana Potion, Gold (30–70)</li>
+      <li><strong>Hell:</strong> Rare Kris, Small Charm, Rune (Eth–Tal), Gold (130–200)</li>
+    </ul>
+  </section>
+  <section>
+    <h3>Possible Affixes</h3>
+    <ul>
+      <li><strong>Prefixes:</strong>
+        <ul>
+          <li><strong>Fire Enchanted</strong> – Adds fire damage and explodes on death</li>
+          <li><strong>Extra Fast</strong> – Moves and attacks quicker</li>
+          <li><strong>Teleportation</strong> – Randomly blinks short distances</li>
+        </ul>
+      </li>
+      <li><strong>Suffixes:</strong>
+        <ul>
+          <li><strong>of the Leech</strong> – Steals life per hit</li>
+          <li><strong>the Quick</strong> – Faster retreat speed</li>
+          <li><strong>of Flame</strong> – Deals additional fire damage</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+</article>
+
+<article id="skeleton-archer">
+  <header>
+    <h2>Skeleton Archer</h2>
+    <p><strong>Type:</strong> Undead | <strong>AI:</strong> Ranged</p>
+    <p><strong>Spawn Locations:</strong> Den of Evil, Crypt, Mausoleum, Tower Cellar</p>
+  </header>
+  <section class="images">
+    <img src="images/SkeletonArcher_classic_sprite.png" alt="Skeleton Archer Classic Sprite">
+    <img src="images/SkeletonArcher_d2r_render.png" alt="Skeleton Archer D2R Render">
+  </section>
+  <section>
+    <h3>Stats by Difficulty</h3>
+    <table>
+      <thead>
+        <tr><th>Difficulty</th><th>Level</th><th>Health</th><th>Base Damage</th><th>Elemental Damage</th><th>Resistances</th><th>Immunities</th><th>Special Abilities</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Normal</td><td>3–5</td><td>25–40</td><td>3–6</td><td>None</td><td>Cold: 30%</td><td>None</td><td>Ranged attacks with bows</td></tr>
+        <tr><td>Nightmare</td><td>37</td><td>180–220</td><td>16–26</td><td>None</td><td>Cold: 60%</td><td>None</td><td>Ranged attacks with bows</td></tr>
+        <tr><td>Hell</td><td>68</td><td>800–950</td><td>42–60</td><td>None</td><td>Cold: 90%</td><td>Cold</td><td>Ranged attacks with bows</td></tr>
+      </tbody>
+    </table>
+  </section>
+  <section>
+    <h3>Lore</h3>
+    <p>Raised from ancient battlefields, Skeleton Archers stalk ruins with eerie precision. Silent, relentless, and immune to fear, they pepper foes with volleys of arrows while keeping their distance.</p>
+  </section>
+  <section>
+    <h3>Notable Drops</h3>
+    <ul>
+      <li><strong>Normal:</strong> Arrows, Buckler, Gold (8–18)</li>
+      <li><strong>Nightmare:</strong> Magic Short Bow, Rejuvenation Potion, Gold (40–75)</li>
+      <li><strong>Hell:</strong> Rare Hunter's Bow, Rune (Tal–Ral), Gold (120–190)</li>
+    </ul>
+  </section>
+  <section>
+    <h3>Possible Affixes</h3>
+    <ul>
+      <li><strong>Prefixes:</strong>
+        <ul>
+          <li><strong>Cold Enchanted</strong> – Adds cold damage and slows enemies</li>
+          <li><strong>Magic Resistant</strong> – +40% to all resistances</li>
+          <li><strong>Extra Strong</strong> – Increased attack damage</li>
+        </ul>
+      </li>
+      <li><strong>Suffixes:</strong>
+        <ul>
+          <li><strong>of Frost</strong> – Additional cold damage</li>
+          <li><strong>the Sharpshooter</strong> – Enhanced ranged accuracy</li>
+          <li><strong>of the Grave</strong> – Extra damage to Holy targets</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+</article>
+
+<article id="wraith">
+  <header>
+    <h2>Wraith</h2>
+    <p><strong>Type:</strong> Undead | <strong>AI:</strong> Phasing Melee</p>
+    <p><strong>Spawn Locations:</strong> Tower Cellar, Forgotten Tower, Catacombs</p>
+  </header>
+  <section class="images">
+    <img src="images/Wraith_classic_sprite.png" alt="Wraith Classic Sprite">
+    <img src="images/Wraith_d2r_render.png" alt="Wraith D2R Render">
+  </section>
+  <section>
+    <h3>Stats by Difficulty</h3>
+    <table>
+      <thead>
+        <tr><th>Difficulty</th><th>Level</th><th>Health</th><th>Base Damage</th><th>Elemental Damage</th><th>Resistances</th><th>Immunities</th><th>Special Abilities</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Normal</td><td>6–9</td><td>40–65</td><td>6–10</td><td>Lightning: 1–5</td><td>Lightning: 50%</td><td>None</td><td>Drains mana on hit, passes through walls</td></tr>
+        <tr><td>Nightmare</td><td>43</td><td>200–260</td><td>20–28</td><td>Lightning: 5–15</td><td>Lightning: 80%</td><td>None</td><td>Drains mana on hit, passes through walls</td></tr>
+        <tr><td>Hell</td><td>77</td><td>980–1100</td><td>46–68</td><td>Lightning: 15–30</td><td>Lightning: 100%</td><td>Lightning</td><td>Drains mana on hit, passes through walls</td></tr>
+      </tbody>
+    </table>
+  </section>
+  <section>
+    <h3>Lore</h3>
+    <p>These ghostly apparitions haunt the crypts and towers of Sanctuary, feeding on the life force of adventurers. Their incorporeal form allows them to phase through solid objects, and their touch saps your mana.</p>
+  </section>
+  <section>
+    <h3>Notable Drops</h3>
+    <ul>
+      <li><strong>Normal:</strong> Mana Potion, Short Staff, Gold (10–30)</li>
+      <li><strong>Nightmare:</strong> Magic Wand, Ring, Gold (60–110)</li>
+      <li><strong>Hell:</strong> Rare Amulet, Rune (Ral–Ort), Gold (200–280)</li>
+    </ul>
+  </section>
+  <section>
+    <h3>Possible Affixes</h3>
+    <ul>
+      <li><strong>Prefixes:</strong>
+        <ul>
+          <li><strong>Lightning Enchanted</strong> – Deals bonus lightning damage and discharges on death</li>
+          <li><strong>Extra Strong</strong> – Enhanced physical damage</li>
+          <li><strong>Mana Burn</strong> – Increased mana drain per hit</li>
+        </ul>
+      </li>
+      <li><strong>Suffixes:</strong>
+        <ul>
+          <li><strong>of the Wraith</strong> – Increases mana drain ability</li>
+          <li><strong>the Phased</strong> – Increased phasing frequency</li>
+          <li><strong>of Shock</strong> – Adds electrical discharge on attack</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+</article>
+
+<article id="goatman">
+  <header>
+    <h2>Moon Clan Goatman</h2>
+    <p><strong>Type:</strong> Demon | <strong>AI:</strong> Melee</p>
+    <p><strong>Spawn Locations:</strong> Black Marsh, Tamoe Highland, Forgotten Tower</p>
+  </header>
+  <section class="images">
+    <img src="images/MoonClan_classic_sprite.png" alt="Moon Clan Classic Sprite">
+    <img src="images/MoonClan_d2r_render.png" alt="Moon Clan D2R Render">
+  </section>
+  <section>
+    <h3>Stats by Difficulty</h3>
+    <table>
+      <thead>
+        <tr><th>Difficulty</th><th>Level</th><th>Health</th><th>Base Damage</th><th>Elemental Damage</th><th>Resistances</th><th>Immunities</th><th>Special Abilities</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Normal</td><td>9–11</td><td>55–80</td><td>7–12</td><td>None</td><td>Cold: 20%</td><td>None</td><td>High movement speed</td></tr>
+        <tr><td>Nightmare</td><td>46</td><td>240–320</td><td>24–34</td><td>None</td><td>Cold: 50%</td><td>None</td><td>High movement speed</td></tr>
+        <tr><td>Hell</td><td>79</td><td>1020–1180</td><td>52–70</td><td>None</td><td>Cold: 80%</td><td>Cold</td><td>High movement speed</td></tr>
+      </tbody>
+    </table>
+  </section>
+  <section>
+    <h3>Lore</h3>
+    <p>Moon Clan Goatmen are brutal and swift. They charge into battle with axes and a bestial fury, often seen in roaming packs across the highlands and tower dungeons. Though not intelligent, their instincts are deadly.</p>
+  </section>
+  <section>
+    <h3>Notable Drops</h3>
+    <ul>
+      <li><strong>Normal:</strong> Hand Axe, Minor Stamina Potion, Gold (15–30)</li>
+      <li><strong>Nightmare:</strong> Magic Cleaver, Rejuvenation Potion, Gold (50–90)</li>
+      <li><strong>Hell:</strong> Rare War Axe, Rune (Tal–Ort), Gold (180–240)</li>
+    </ul>
+  </section>
+  <section>
+    <h3>Possible Affixes</h3>
+    <ul>
+      <li><strong>Prefixes:</strong>
+        <ul>
+          <li><strong>Extra Strong</strong> – Deals increased physical damage</li>
+          <li><strong>Cold Enchanted</strong> – Adds cold damage and slows enemies</li>
+          <li><strong>Magic Resistant</strong> – +40% to all elemental resistances</li>
+        </ul>
+      </li>
+      <li><strong>Suffixes:</strong>
+        <ul>
+          <li><strong>of Gore</strong> – Boosts critical strike chance</li>
+          <li><strong>the Brutal</strong> – Increases melee damage output</li>
+          <li><strong>of the Bull</strong> – Grants charge-like knockback effect</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+</article>
+
+<article id="blood-raven">
+  <header>
+    <h2>Blood Raven</h2>
+    <p><strong>Type:</strong> Demon | <strong>AI:</strong> Unique Ranged</p>
+    <p><strong>Spawn Locations:</strong> Burial Grounds (Quest Boss)</p>
+  </header>
+  <section class="images">
+    <img src="images/BloodRaven_classic_sprite.png" alt="Blood Raven Classic Sprite">
+    <img src="images/BloodRaven_d2r_render.png" alt="Blood Raven D2R Render">
+  </section>
+  <section>
+    <h3>Stats by Difficulty</h3>
+    <table>
+      <thead>
+        <tr><th>Difficulty</th><th>Level</th><th>Health</th><th>Base Damage</th><th>Elemental Damage</th><th>Resistances</th><th>Immunities</th><th>Special Abilities</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Normal</td><td>6</td><td>135</td><td>8–16</td><td>None</td><td>Cold: 50%</td><td>None</td><td>Summons zombies, fast movement</td></tr>
+        <tr><td>Nightmare</td><td>43</td><td>900</td><td>22–32</td><td>Cold: 10–20</td><td>Cold: 80%</td><td>Cold</td><td>Summons stronger zombies, faster</td></tr>
+        <tr><td>Hell</td><td>77</td><td>4400</td><td>60–80</td><td>Cold: 30–50</td><td>Cold: 100%</td><td>Cold</td><td>Summons elite zombies, very fast</td></tr>
+      </tbody>
+    </table>
+  </section>
+  <section>
+    <h3>Lore</h3>
+    <p>Once a proud Sister of the Sightless Eye, Blood Raven now serves the forces of Hell. Twisted by Andariel’s corruption, she haunts the Burial Grounds, commanding the dead and turning her bow against her former kin.</p>
+  </section>
+  <section>
+    <h3>Notable Drops</h3>
+    <ul>
+      <li><strong>Normal:</strong> Magic Bow, Stamina Potion, Gold (60–90)</li>
+      <li><strong>Nightmare:</strong> Rare Short Battle Bow, Small Charm, Gold (200–280)</li>
+      <li><strong>Hell:</strong> Unique Long War Bow (Raven Claw), Rune (Amn–Shael), Gold (600–850)</li>
+    </ul>
+  </section>
+  <section>
+    <h3>Possible Affixes</h3>
+    <ul>
+      <li><strong>Prefixes:</strong>
+        <ul>
+          <li><strong>Cold Enchanted</strong> – Adds cold damage and chilling effects</li>
+          <li><strong>Extra Fast</strong> – Greatly increases movement and attack speed</li>
+          <li><strong>Stone Skin</strong> – Boosts physical resistance and defense</li>
+        </ul>
+      </li>
+      <li><strong>Suffixes:</strong>
+        <ul>
+          <li><strong>the Defiler</strong> – Summons undead on kill</li>
+          <li><strong>of the Huntress</strong> – Increased ranged accuracy and critical hit chance</li>
+          <li><strong>of Ice</strong> – Boosts cold damage output</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+</article>
+
+<article id="countess">
+  <header>
+    <h2>The Countess</h2>
+    <p><strong>Type:</strong> Demon | <strong>AI:</strong> Unique Caster</p>
+    <p><strong>Spawn Locations:</strong> Forgotten Tower, Tower Cellar Level 5</p>
+  </header>
+  <section class="images">
+    <img src="images/Countess_classic_sprite.png" alt="The Countess Classic Sprite">
+    <img src="images/Countess_d2r_render.png" alt="The Countess D2R Render">
+  </section>
+  <section>
+    <h3>Stats by Difficulty</h3>
+    <table>
+      <thead>
+        <tr><th>Difficulty</th><th>Level</th><th>Health</th><th>Base Damage</th><th>Elemental Damage</th><th>Resistances</th><th>Immunities</th><th>Special Abilities</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Normal</td><td>11</td><td>250</td><td>10–14</td><td>Fire: 6–10</td><td>Fire: 30%</td><td>None</td><td>Fire wall caster, rune dropper</td></tr>
+        <tr><td>Nightmare</td><td>45</td><td>1000</td><td>28–36</td><td>Fire: 20–30</td><td>Fire: 70%</td><td>None</td><td>Fire wall caster, enhanced rune drops</td></tr>
+        <tr><td>Hell</td><td>82</td><td>5600</td><td>80–100</td><td>Fire: 40–70</td><td>Fire: 100%</td><td>Fire</td><td>Fire wall caster, high rune drop chance</td></tr>
+      </tbody>
+    </table>
+  </section>
+  <section>
+    <h3>Lore</h3>
+    <p>Once a noblewoman, the Countess was entombed alive for her crimes. Her vengeful spirit now haunts the ruins of her tower, wielding fire magic and hoarding runes of dark power.</p>
+  </section>
+  <section>
+    <h3>Notable Drops</h3>
+    <ul>
+      <li><strong>Normal:</strong> Rune (El–Tal), Fire Resist Ring, Gold (200–400)</li>
+      <li><strong>Nightmare:</strong> Rune (Ral–Sol), Magic Circlet, Gold (500–700)</li>
+      <li><strong>Hell:</strong> Rune (Lum–Ist), Rare Ring, Gold (800–1200)</li>
+    </ul>
+  </section>
+  <section>
+    <h3>Possible Affixes</h3>
+    <ul>
+      <li><strong>Prefixes:</strong>
+        <ul>
+          <li><strong>Fire Enchanted</strong> – Boosts fire damage and explodes on death</li>
+          <li><strong>Mana Burn</strong> – Drains mana on hit</li>
+          <li><strong>Magic Resistant</strong> – +40% all elemental resistances</li>
+        </ul>
+      </li>
+      <li><strong>Suffixes:</strong>
+        <ul>
+          <li><strong>of the Runehoarder</strong> – Increases rune drop odds</li>
+          <li><strong>the Infernal</strong> – Boosts fire wall intensity</li>
+          <li><strong>of Flame</strong> – Enhances fire elemental damage</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+</article>
+
+<article id="the-smith">
+  <header>
+    <h2>The Smith</h2>
+    <p><strong>Type:</strong> Demon | <strong>AI:</strong> Unique Melee</p>
+    <p><strong>Spawn Locations:</strong> Barracks (Tools of the Trade quest)</p>
+  </header>
+  <section class="images">
+    <img src="images/TheSmith_classic_sprite.png" alt="The Smith Classic Sprite">
+    <img src="images/TheSmith_d2r_render.png" alt="The Smith D2R Render">
+  </section>
+  <section>
+    <h3>Stats by Difficulty</h3>
+    <table>
+      <thead>
+        <tr><th>Difficulty</th><th>Level</th><th>Health</th><th>Base Damage</th><th>Elemental Damage</th><th>Resistances</th><th>Immunities</th><th>Special Abilities</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Normal</td><td>12</td><td>300</td><td>12–18</td><td>Fire: 5–10</td><td>Fire: 30%</td><td>None</td><td>Charges with massive maul, knocks back</td></tr>
+        <tr><td>Nightmare</td><td>47</td><td>1200</td><td>30–44</td><td>Fire: 15–25</td><td>Fire: 70%</td><td>None</td><td>Enraged charge, enhanced knockback</td></tr>
+        <tr><td>Hell</td><td>83</td><td>6000</td><td>85–110</td><td>Fire: 35–60</td><td>Fire: 100%</td><td>Fire</td><td>Stun effect, massive knockback, aura-enchanted</td></tr>
+      </tbody>
+    </table>
+  </section>
+  <section>
+    <h3>Lore</h3>
+    <p>The Smith was once tasked with forging armor and weapons for the Sisterhood. After succumbing to demonic corruption, he guards the Horadric Malus with fanatical strength and blazing rage.</p>
+  </section>
+  <section>
+    <h3>Notable Drops</h3>
+    <ul>
+      <li><strong>Normal:</strong> Magic Maul, Chain Mail, Gold (250–400)</li>
+      <li><strong>Nightmare:</strong> Rare War Hammer, Heavy Armor, Gold (550–700)</li>
+      <li><strong>Hell:</strong> Unique Maul (Bonesnap), Rune (Ort–Hel), Gold (800–1000)</li>
+    </ul>
+  </section>
+  <section>
+    <h3>Possible Affixes</h3>
+    <ul>
+      <li><strong>Prefixes:</strong>
+        <ul>
+          <li><strong>Extra Strong</strong> – Boosts physical damage significantly</li>
+          <li><strong>Fire Enchanted</strong> – Adds fire damage, explodes on death</li>
+          <li><strong>Aura Enchanted</strong> – May spawn with Might or Holy Fire aura</li>
+        </ul>
+      </li>
+      <li><strong>Suffixes:</strong>
+        <ul>
+          <li><strong>of the Juggernaut</strong> – Enhanced knockback and stun duration</li>
+          <li><strong>the Forgemaster</strong> – Increased chance to drop weapons</li>
+          <li><strong>of Flame</strong> – Boosts fire-based melee attacks</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+</article>
+
+<article id="bone-ash">
+  <header>
+    <h2>Bone Ash</h2>
+    <p><strong>Type:</strong> Undead | <strong>AI:</strong> Unique Caster</p>
+    <p><strong>Spawn Locations:</strong> Cathedral (near Inner Cloister)</p>
+  </header>
+  <section class="images">
+    <img src="images/BoneAsh_classic_sprite.png" alt="Bone Ash Classic Sprite">
+    <img src="images/BoneAsh_d2r_render.png" alt="Bone Ash D2R Render">
+  </section>
+  <section>
+    <h3>Stats by Difficulty</h3>
+    <table>
+      <thead>
+        <tr><th>Difficulty</th><th>Level</th><th>Health</th><th>Base Damage</th><th>Elemental Damage</th><th>Resistances</th><th>Immunities</th><th>Special Abilities</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Normal</td><td>12</td><td>360</td><td>10–18</td><td>Cold: 12–18</td><td>Cold: 70%</td><td>None</td><td>Cast Bone Spirit, Cold-based attacks</td></tr>
+        <tr><td>Nightmare</td><td>50</td><td>1800</td><td>28–42</td><td>Cold: 30–40</td><td>Cold: 90%</td><td>Cold</td><td>Powerful Bone Spirit, heavy Cold damage</td></tr>
+        <tr><td>Hell</td><td>85</td><td>6200</td><td>80–100</td><td>Cold: 60–80</td><td>Cold: 100%</td><td>Cold</td><td>Cold nova on death, casts Bone Spear</td></tr>
+      </tbody>
+    </table>
+  </section>
+  <section>
+    <h3>Lore</h3>
+    <p>Once a High Cleric turned necromancer, Bone Ash haunts the cathedral halls with chilling fury. His magic is formidable, his bones seared black with cold corruption.</p>
+  </section>
+  <section>
+    <h3>Notable Drops</h3>
+    <ul>
+      <li><strong>Normal:</strong> Magic Wand, Skull Cap, Gold (150–200)</li>
+      <li><strong>Nightmare:</strong> Rare Wand, Bone Shield, Gold (400–600)</li>
+      <li><strong>Hell:</strong> Unique Bone Wand (Torch of Iro), Rune (Ral–Io), Gold (800–1200)</li>
+    </ul>
+  </section>
+  <section>
+    <h3>Possible Affixes</h3>
+    <ul>
+      <li><strong>Prefixes:</strong>
+        <ul>
+          <li><strong>Cold Enchanted</strong> – Adds cold damage and slows on hit</li>
+          <li><strong>Magic Resistant</strong> – +40% to all resistances</li>
+          <li><strong>Mana Burn</strong> – Drains mana on contact</li>
+        </ul>
+      </li>
+      <li><strong>Suffixes:</strong>
+        <ul>
+          <li><strong>the Frozen</strong> – Stronger freezing effect</li>
+          <li><strong>of the Crypt</strong> – Boosts necrotic damage abilities</li>
+          <li><strong>of Death’s Grasp</strong> – Increases Bone Spirit damage</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+</article>
+
+<article id="andariel">
+  <header>
+    <h2>Andariel</h2>
+    <p><strong>Type:</strong> Demon (Act Boss) | <strong>AI:</strong> Poison Caster / Melee Hybrid</p>
+    <p><strong>Spawn Locations:</strong> Catacombs Level 4 (End of Act I)</p>
+  </header>
+  <section class="images">
+    <img src="images/Andariel_classic_sprite.png" alt="Andariel Classic Sprite">
+    <img src="images/Andariel_d2r_render.png" alt="Andariel D2R Render">
+  </section>
+  <section>
+    <h3>Stats by Difficulty</h3>
+    <table>
+      <thead>
+        <tr><th>Difficulty</th><th>Level</th><th>Health</th><th>Base Damage</th><th>Elemental Damage</th><th>Resistances</th><th>Immunities</th><th>Special Abilities</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Normal</td><td>12</td><td>1024</td><td>20–35</td><td>Poison: 25–40</td><td>Poison: 50%</td><td>None</td><td>Poison spray, heavy melee</td></tr>
+        <tr><td>Nightmare</td><td>49</td><td>6960</td><td>60–85</td><td>Poison: 90–120</td><td>Poison: 90%</td><td>None</td><td>Poison nova, AoE burst</td></tr>
+        <tr><td>Hell</td><td>75</td><td>11760</td><td>110–140</td><td>Poison: 180–260</td><td>Poison: 100%</td><td>Poison</td><td>Massive poison spray, high knockback</td></tr>
+      </tbody>
+    </table>
+  </section>
+  <section>
+    <h3>Lore</h3>
+    <p>Andariel, the Maiden of Anguish, is one of the four Lesser Evils. Entrusted with guarding Diablo's return, she spread corruption across the Sisterhood. Her lair reeks of decay, where her poison reigns supreme.</p>
+  </section>
+  <section>
+    <h3>Notable Drops</h3>
+    <ul>
+      <li><strong>Normal:</strong> Rare Armor, Magic Ring, Gold (800–1100)</li>
+      <li><strong>Nightmare:</strong> Unique Armor (Duriel’s Shell), Rare Amulet, Rune (Shael–Lum)</li>
+      <li><strong>Hell:</strong> Unique Weapon (The Reaper’s Toll), High Rune (Um–Gul), Gold (1200–1600)</li>
+    </ul>
+  </section>
+  <section>
+    <h3>Possible Affixes</h3>
+    <ul>
+      <li><strong>Prefixes:</strong>
+        <ul>
+          <li><strong>Poison Enchanted</strong> – Boosts poison nova and AoE spray</li>
+          <li><strong>Extra Strong</strong> – Increases base melee damage significantly</li>
+          <li><strong>Magic Resistant</strong> – +40% to all elemental resistances</li>
+        </ul>
+      </li>
+      <li><strong>Suffixes:</strong>
+        <ul>
+          <li><strong>of Anguish</strong> – Boosts poison duration and slows target</li>
+          <li><strong>the Desecrator</strong> – Spawns poison pools on death</li>
+          <li><strong>of Pestilence</strong> – Increased poison spread radius</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+</article>
+
+<footer>
+    <p style="text-align:center; margin-top:40px;">&copy; 2025 Diablo II: Resurrected Bestiary – Act I</p>
+  </footer>
+
+</body>
+</html>

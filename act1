@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Act I – The Sightless Eye</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <h1>Act I: The Sightless Eye</h1>
+</header>
+
+<section id="zombie">
+  <h2>Zombie</h2>
+  <div class="images">
+    <img src="images/zombie_sprite.png" alt="Zombie Classic Sprite">
+    <img src="images/zombie_render.png" alt="Zombie D2R Render">
+  </div>
+  <table>
+    <thead>
+      <tr><th>Difficulty</th><th>Level</th><th>Health</th><th>Base Damage</th><th>Resistances</th><th>Abilities</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Normal</td><td>1–2</td><td>21–29</td><td>1–3</td><td>Poison 50%</td><td>Slow melee attack</td></tr>
+      <tr><td>Nightmare</td><td>36–37</td><td>550–680</td><td>8–16</td><td>Poison 75%</td><td>Sluggish but tanky</td></tr>
+      <tr><td>Hell</td><td>67–68</td><td>2,400–3,000</td><td>18–28</td><td>Poison Immune</td><td>Slow high-damage hits</td></tr>
+    </tbody>
+  </table>
+  <h3>Lore</h3>
+  <p>These rotting corpses were once townsfolk, now reanimated by the corruption spreading through the land. They shuffle aimlessly, driven by an insatiable hunger for the living.</p>
+  <h3>Notable Drops</h3>
+  <ul>
+    <li><strong>Normal:</strong> Minor healing potions, daggers</li>
+    <li><strong>Nightmare:</strong> Magic boots, runes (El–Ral)</li>
+    <li><strong>Hell:</strong> Unique clubs, runes (Pul–Um)</li>
+  </ul>
+  <h3>Affixes</h3>
+  <ul>
+    <li><strong>Prefix:</strong> Plagued – Leaves poison trail</li>
+    <li><strong>Suffix:</strong> of Decay – Chance to lower target defense</li>
+  </ul>
+</section>
+
+<!-- Additional monsters like Fallen, Corrupted Rogue, Skeleton Archer, Dark Hunter, The Smith, Andariel, and others would follow in same format -->
+
+<footer>
+  &copy; 2025 Diablo II Bestiary – Act I completed by Virel
+</footer>
+
+</body>
+</html>

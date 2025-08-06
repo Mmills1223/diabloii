@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diablo II: Resurrected Bestiary</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      background-color: #0a0a0a;
+      color: #f8f4e3;
+      font-family: 'Diablo', serif;
+      text-align: center;
+      padding: 2rem;
+    }
+    header {
+      padding: 1rem 0;
+    }
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+    .nav-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+    }
+    .nav-card {
+      background-color: #1e1e1e;
+      border: 2px solid #8b0000;
+      padding: 1.5rem;
+      border-radius: 8px;
+      transition: transform 0.2s;
+    }
+    .nav-card:hover {
+      transform: scale(1.05);
+      background-color: #300000;
+    }
+    .nav-card a {
+      text-decoration: none;
+      color: #f8f4e3;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+  </style>
+</head>
+<body>
+  <audio autoplay loop volume="0.5">
+    <source src="audio/tristram_theme.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+  <div style="margin-bottom: 2rem;">
+    <img src="images/diablo_logo.png" alt="Diablo II Logo" style="max-width: 100%; height: auto;">
+  </div>
+  <header>
+    <h1>Diablo II: Resurrected Bestiary</h1>
+    <p>Explore every monster, boss, and demon from Sanctuary’s darkest corners.</p>
+  </header>
+
+  <div class="nav-grid">
+    <div class="nav-card"><a href="act1.html">Act I: The Sightless Eye</a></div>
+    <div class="nav-card"><a href="act2.html">Act II: The Secret of the Vizjerei</a></div>
+    <div class="nav-card"><a href="act3.html">Act III: The Infernal Gate</a></div>
+    <div class="nav-card"><a href="act4.html">Act IV: The Harrowing</a></div>
+    <div class="nav-card"><a href="act5.html">Act V: Lord of Destruction</a></div>
+    <div class="nav-card"><a href="pandemonium.html">Pandemonium & Ubers</a></div>
+  </div>
+</body>
+</html>

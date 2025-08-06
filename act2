@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Act II – The Secret of the Vizjerei</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <h1>Act II: The Secret of the Vizjerei</h1>
+</header>
+
+<section id="scarab-demon">
+  <h2>Scarab Demon</h2>
+  <div class="images">
+    <img src="images/scarab_demon_sprite.png" alt="Scarab Demon Classic Sprite">
+    <img src="images/scarab_demon_render.png" alt="Scarab Demon D2R Render">
+  </div>
+  <table>
+    <thead>
+      <tr><th>Difficulty</th><th>Level</th><th>Health</th><th>Base Damage</th><th>Resistances</th><th>Abilities</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Normal</td><td>13–14</td><td>90–120</td><td>12–18</td><td>Lightning 40%</td><td>Lightning discharge on hit</td></tr>
+      <tr><td>Nightmare</td><td>49–50</td><td>850–1,000</td><td>35–52</td><td>Lightning 75%</td><td>Enhanced shock burst</td></tr>
+      <tr><td>Hell</td><td>78–79</td><td>3,500–4,200</td><td>60–84</td><td>Lightning Immune</td><td>Lightning nova</td></tr>
+    </tbody>
+  </table>
+  <h3>Lore</h3>
+  <p>Ancient protectors of the desert tombs, these beetle-like monsters unleash powerful electrical bursts when struck, punishing melee attackers severely.</p>
+  <h3>Notable Drops</h3>
+  <ul>
+    <li><strong>Normal:</strong> Javelins, minor mana potions</li>
+    <li><strong>Nightmare:</strong> Rare boots, runes (Amn–Sol)</li>
+    <li><strong>Hell:</strong> Unique gloves, runes (Um–Ist)</li>
+  </ul>
+  <h3>Affixes</h3>
+  <ul>
+    <li><strong>Prefix:</strong> Charged – Extra lightning pulse</li>
+    <li><strong>Suffix:</strong> of Static – Pulses electricity every few seconds</li>
+  </ul>
+</section>
+
+<!-- Repeat for other monsters like Dung Soldier, Claw Viper, Sand Maggot, Radament, Summoner, Duriel, etc. -->
+
+<footer>
+  &copy; 2025 Diablo II Bestiary – Act II completed by Virel
+</footer>
+
+</body>
+</html>

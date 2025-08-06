@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Act IV – The Harrowing</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <h1>Act IV: The Harrowing</h1>
+</header>
+
+<section id="doom-knight">
+  <h2>Doom Knight</h2>
+  <div class="images">
+    <img src="images/doom_knight_sprite.png" alt="Doom Knight Classic Sprite">
+    <img src="images/doom_knight_render.png" alt="Doom Knight D2R Render">
+  </div>
+  <table>
+    <thead>
+      <tr><th>Difficulty</th><th>Level</th><th>Health</th><th>Base Damage</th><th>Resistances</th><th>Abilities</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Normal</td><td>27–28</td><td>260–340</td><td>20–38</td><td>Cold 30%</td><td>Fast melee</td></tr>
+      <tr><td>Nightmare</td><td>60–61</td><td>1,100–1,250</td><td>48–70</td><td>Cold 60%</td><td>Charge attack</td></tr>
+      <tr><td>Hell</td><td>89–90</td><td>6,500–7,200</td><td>80–105</td><td>Cold Immune</td><td>Berserk rush</td></tr>
+    </tbody>
+  </table>
+  <h3>Lore</h3>
+  <p>Corrupted paladins of an ancient order, Doom Knights are brutal and relentless. Now servants of Diablo, they exist only to destroy.</p>
+  <h3>Notable Drops</h3>
+  <ul>
+    <li><strong>Normal:</strong> Great swords, mana potions</li>
+    <li><strong>Nightmare:</strong> Rare plate armor, runes (Shael–Sol)</li>
+    <li><strong>Hell:</strong> Unique swords, runes (Um–Gul)</li>
+  </ul>
+  <h3>Affixes</h3>
+  <ul>
+    <li><strong>Prefix:</strong> Frenzied – Increases attack speed</li>
+    <li><strong>Suffix:</strong> of Wrath – Adds bonus cold damage</li>
+  </ul>
+</section>
+
+<!-- Additional monsters: Abyss Knight, Venom Lord, Izual, Grand Vizier of Chaos, Diablo -->
+
+<footer>
+  &copy; 2025 Diablo II Bestiary – Act IV completed by Virel
+</footer>
+
+</body>
+</html>

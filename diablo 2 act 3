@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Act III: The Infernal Jungle - Diablo II Bestiary</title>
+  <link rel="stylesheet" href="diablo-style.css">
+  <style>
+    body {
+      font-family: 'Diablo', serif;
+      background-color: #0d0d0d;
+      color: #e0d8b0;
+      padding: 20px;
+    }
+    header, footer {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    nav#floating-menu {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 200px;
+      height: 100%;
+      background-color: #1a1a1a;
+      border-right: 2px solid #a00;
+      padding-top: 20px;
+    }
+    nav#floating-menu ul {
+      list-style: none;
+      padding-left: 10px;
+    }
+    nav#floating-menu li {
+      margin-bottom: 15px;
+    }
+    nav#floating-menu a {
+      color: #e0d8b0;
+      text-decoration: none;
+    }
+    section {
+      margin-left: 220px;
+      padding-bottom: 60px;
+      border-bottom: 1px solid #555;
+    }
+    img {
+      height: 100px;
+      margin-right: 10px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    th, td {
+      border: 1px solid #a00;
+      padding: 8px;
+      text-align: left;
+    }
+    h2 {
+      color: #ff0000;
+      font-size: 2em;
+      margin-top: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Act III: The Infernal Jungle</h1>
+    <p>From the fetid jungles of Kurast to the corrupted temples of Zakarum, Act III is home to swarming demons, fetishes, and corrupted priests.</p>
+  </header>
+
+  <nav id="floating-menu">
+    <ul>
+      <li><a href="#fetish">Fetish</a></li>
+      <li><a href="#zakarumite">Zakarumite</a></li>
+      <li><a href="#thorned-hulk">Thorned Hulk</a></li>
+      <li><a href="#stormtree">Stormtree</a></li>
+      <li><a href="#travincal-council">Council Members</a></li>
+      <li><a href="#mephisto">Mephisto</a></li>
+    </ul>
+  </nav>
+
+  <section id="fetish">
+    <h2>Fetish</h2>
+    <div class="images">
+      <img src="images/fetish_sprite.png" alt="Fetish Classic Sprite">
+      <img src="images/fetish_render.png" alt="Fetish D2R Render">
+    </div>
+    <table>
+      <thead>
+        <tr><th>Difficulty</th><th>Level</th><th>Health</th><th>Base Damage</th><th>Resistances</th><th>Abilities</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Normal</td><td>24–27</td><td>76–91</td><td>7–15</td><td>None</td><td>Fast movement, group AI</td></tr>
+        <tr><td>Nightmare</td><td>57–60</td><td>367–408</td><td>30–42</td><td>Cold 33%, Fire 25%</td><td>High speed, small size</td></tr>
+        <tr><td>Hell</td><td>85–88</td><td>4,200–4,700</td><td>52–73</td><td>Cold 75%, Fire 33%</td><td>Swarming, small hitbox</td></tr>
+      </tbody>
+    </table>
+    <h3>Lore</h3>
+    <p>These pint-sized demons roam the jungles in bloodthirsty packs, often under the control of a shaman. Don't let their size fool you—they can overwhelm the unprepared with sheer numbers.</p>
+    <h3>Notable Drops</h3>
+    <ul>
+      <li><strong>Normal:</strong> Minor potions, throwing knives, low-tier charms</li>
+      <li><strong>Nightmare:</strong> Rare javelins, small charms, runes (Tal–Ral)</li>
+      <li><strong>Hell:</strong> Unique throwing weapons, jewels, runes (Shael–Pul)</li>
+    </ul>
+    <h3>Affixes</h3>
+    <ul>
+      <li><strong>Prefix:</strong> Extra Fast – Increases speed dramatically</li>
+      <li><strong>Suffix:</strong> of Flame – Adds fire damage to attack</li>
+    </ul>
+  </section>
+
+  <section id="zakarumite">
+    <h2>Zakarumite</h2>
+    <div class="images">
+      <img src="images/zakarumite_sprite.png" alt="Zakarumite Classic Sprite">
+      <img src="images/zakarumite_render.png" alt="Zakarumite D2R Render">
+    </div>
+    <table>
+      <thead>
+        <tr><th>Difficulty</th><th>Level</th><th>Health</th><th>Base Damage</th><th>Resistances</th><th>Abilities</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Normal</td><td>26–28</td><td>132–159</td><td>10–23</td><td>None</td><td>Charge attack</td></tr>
+        <tr><td>Nightmare</td><td>60–62</td><td>580–650</td><td>42–56</td><td>Lightning 25%</td><td>Fast, aggressive melee</td></tr>
+        <tr><td>Hell</td><td>88–90</td><td>5,800–6,400</td><td>63–86</td><td>Lightning 55%</td><td>Group aggression</td></tr>
+      </tbody>
+    </table>
+    <h3>Lore</h3>
+    <p>Once holy warriors of Zakarum, these corrupted zealots now serve Mephisto's dark will. Their blind faith now fuels unrelenting violence against the innocent.</p>
+    <h3>Notable Drops</h3>
+    <ul>
+      <li><strong>Normal:</strong> Bucklers, healing potions</li>
+      <li><strong>Nightmare:</strong> Magic pikes, shields, Runes (Ort–Sol)</li>
+      <li><strong>Hell:</strong> Exceptional weapons, unique scepters, runes (Fal–Um)</li>
+    </ul>
+    <h3>Affixes</h3>
+    <ul>
+      <li><strong>Prefix:</strong> Fanatic – Increases attack rate</li>
+      <li><strong>Suffix:</strong> of Thunder – Adds lightning damage</li>
+    </ul>
+  </section>
+<!-- The previous content remains unchanged above -->
+
+  <section id="thorned-hulk">
+    <h2>Thorned Hulk</h2>
+    <div class="images">
+      <img src="images/thorned_hulk_sprite.png" alt="Thorned Hulk Classic Sprite">
+      <img src="images/thorned_hulk_render.png" alt="Thorned Hulk D2R Render">
+    </div>
+    <table>
+      <thead>
+        <tr><th>Difficulty</th><th>Level</th><th>Health</th><th>Base Damage</th><th>Resistances</th><th>Abilities</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Normal</td><td>27–30</td><td>312–388</td><td>24–35</td><td>Poison 50%</td><td>Massive knockback attack</td></tr>
+        <tr><td>Nightmare</td><td>62–65</td><td>1,270–1,400</td><td>62–80</td><td>Poison 75%</td><td>Stomp and stun</td></tr>
+        <tr><td>Hell</td><td>90–93</td><td>10,500–11,700</td><td>108–133</td><td>Poison Immune</td><td>Brutal melee, AoE shockwave</td></tr>
+      </tbody>
+    </table>
+    <h3>Lore</h3>
+    <p>These massive jungle beasts are corrupted constructs of nature, their bodies covered in bone and thorny vines. Their roars shake the trees, and their blows send adventurers flying.</p>
+    <h3>Notable Drops</h3>
+    <ul>
+      <li><strong>Normal:</strong> Chain armor, two-handed axes</li>
+      <li><strong>Nightmare:</strong> Magic mauls, runes (Shael–Io)</li>
+      <li><strong>Hell:</strong> Unique polearms, jewels, runes (Um–Gul)</li>
+    </ul>
+    <h3>Affixes</h3>
+    <ul>
+      <li><strong>Prefix:</strong> Cursed – Casts weaken aura</li>
+      <li><strong>Suffix:</strong> of the Glacier – Adds cold damage and chill</li>
+    </ul>
+  </section>
+<!-- The previous content remains unchanged above -->
+
+  <section id="stormtree">
+    <h2>Stormtree</h2>
+    <div class="images">
+      <img src="images/stormtree_sprite.png" alt="Stormtree Classic Sprite">
+      <img src="images/stormtree_render.png" alt="Stormtree D2R Render">
+    </div>
+    <table>
+      <thead>
+        <tr><th>Difficulty</th><th>Level</th><th>Health</th><th>Base Damage</th><th>Resistances</th><th>Abilities</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Normal</td><td>30</td><td>1,024</td><td>46–65</td><td>Lightning Immune</td><td>Lightning Enchanted, Extra Fast</td></tr>
+        <tr><td>Nightmare</td><td>64</td><td>6,580</td><td>88–110</td><td>Lightning Immune</td><td>Lightning nova on death</td></tr>
+        <tr><td>Hell</td><td>91</td><td>21,180</td><td>132–165</td><td>Lightning Immune, Cold Resist 50%</td><td>Shock nova, fast strike</td></tr>
+      </tbody>
+    </table>
+    <h3>Lore</h3>
+    <p>Stormtree guards the Flayer Jungle with brutal efficiency. This corrupted tree demon radiates lightning energy and can unleash devastating novas upon death.</p>
+    <h3>Notable Drops</h3>
+    <ul>
+      <li><strong>Normal:</strong> Magical shields, rejuvenation potions</li>
+      <li><strong>Nightmare:</strong> Unique boots, runes (Io–Lum)</li>
+      <li><strong>Hell:</strong> Rare gloves, unique charms, runes (Um–Mal)</li>
+    </ul>
+    <h3>Affixes</h3>
+    <ul>
+      <li><strong>Prefix:</strong> Lightning Enchanted – Releases charged bolts when hit or killed</li>
+      <li><strong>Suffix:</strong> of the Wraith – Increased movement and attack speed</li>
+    </ul>
+  </section>
+<!-- The previous content remains unchanged above -->
+
+  <section id="travincal-council">
+    <h2>Travincal Council Members</h2>
+    <div class="images">
+      <img src="images/council_sprite.png" alt="Council Classic Sprite">
+      <img src="images/council_render.png" alt="Council D2R Render">
+    </div>
+    <table>
+      <thead>
+        <tr><th>Difficulty</th><th>Level</th><th>Health</th><th>Base Damage</th><th>Resistances</th><th>Abilities</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Normal</td><td>33</td><td>2,600–2,800</td><td>60–85</td><td>Fire Immune</td><td>Hydra casting, Fireball, High life regen</td></tr>
+        <tr><td>Nightmare</td><td>66</td><td>7,500–8,000</td><td>110–150</td><td>Fire Immune, Lightning Resist 33%</td><td>Hydra traps, teleportation</td></tr>
+        <tr><td>Hell</td><td>93</td><td>24,000–26,000</td><td>165–200</td><td>Fire Immune, Lightning Immune</td><td>Hydra, Fireball, Charged Bolt, heal aura</td></tr>
+      </tbody>
+    </table>
+    <h3>Lore</h3>
+    <p>The Council Members of Travincal were once high priests of Zakarum. Now utterly corrupted by Mephisto, they wield fire and lightning with ruthless precision, guarding the Durance of Hate.</p>
+    <h3>Notable Drops</h3>
+    <ul>
+      <li><strong>Normal:</strong> Gems, magical rings, staves</li>
+      <li><strong>Nightmare:</strong> Unique rings, amulets, runes (Sol–Um)</li>
+      <li><strong>Hell:</strong> High runes (Um–Lo), unique items, charms, gold</li>
+    </ul>
+    <h3>Affixes</h3>
+    <ul>
+      <li><strong>Prefix:</strong> Fire Enchanted – Releases fire explosion on death</li>
+      <li><strong>Suffix:</strong> of the Magus – Increases cast rate</li>
+    </ul>
+  </section>
+<!-- The previous content remains unchanged above -->
+
+  <section id="mephisto">
+    <h2>Mephisto</h2>
+    <div class="images">
+      <img src="images/mephisto_sprite.png" alt="Mephisto Classic Sprite">
+      <img src="images/mephisto_render.png" alt="Mephisto D2R Render">
+    </div>
+    <table>
+      <thead>
+        <tr><th>Difficulty</th><th>Level</th><th>Health</th><th>Base Damage</th><th>Resistances</th><th>Abilities</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Normal</td><td>26</td><td>18,942</td><td>73–97</td><td>Cold 33%, Lightning 75%</td><td>Lightning ball, poison nova, skull missile</td></tr>
+        <tr><td>Nightmare</td><td>59</td><td>71,040</td><td>152–212</td><td>Cold 66%, Lightning 85%, Poison 33%</td><td>Multi-elemental spells, leech aura</td></tr>
+        <tr><td>Hell</td><td>87</td><td>193,320</td><td>209–288</td><td>Cold 75%, Lightning Immune, Poison 66%</td><td>Skull missile, lightning tendrils, curse</td></tr>
+      </tbody>
+    </table>
+    <h3>Lore</h3>
+    <p>Mephisto, the Lord of Hatred, is the eldest of the Prime Evils. Trapped beneath the Temple City of Travincal, he corrupted the Zakarum faith and twisted Kurast into a nightmare of blood sacrifice and madness.</p>
+    <h3>Notable Drops</h3>
+    <ul>
+      <li><strong>Normal:</strong> Rare amulets, magical wands, gems</li>
+      <li><strong>Nightmare:</strong> Unique armor, exceptional weapons, runes (Io–Pul)</li>
+      <li><strong>Hell:</strong> High runes (Um–Gul), elite uniques, charms, Harlequin Crest, Arachnid Mesh</li>
+    </ul>
+    <h3>Affixes</h3>
+    <ul>
+      <li><strong>Prefix:</strong> N/A – Mephisto is a named boss and does not use randomized prefixes</li>
+      <li><strong>Suffix:</strong> N/A – All powers are unique to Mephisto</li>
+    </ul>
+  </section>
+
+</body>
+</html>
+</body>
+</html>
+</body>
+</html>
+</body>
+</html>
+</body>
+</html>

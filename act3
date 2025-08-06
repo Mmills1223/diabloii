@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Act III – The Infernal Gate</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <h1>Act III: The Infernal Gate</h1>
+</header>
+
+<section id="flayer">
+  <h2>Flayer</h2>
+  <div class="images">
+    <img src="images/flayer_sprite.png" alt="Flayer Classic Sprite">
+    <img src="images/flayer_render.png" alt="Flayer D2R Render">
+  </div>
+  <table>
+    <thead>
+      <tr><th>Difficulty</th><th>Level</th><th>Health</th><th>Base Damage</th><th>Resistances</th><th>Abilities</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Normal</td><td>21–22</td><td>120–150</td><td>12–16</td><td>Poison 30%</td><td>Swarming melee</td></tr>
+      <tr><td>Nightmare</td><td>54–55</td><td>850–1,000</td><td>35–42</td><td>Poison 75%</td><td>Frenzy on group kill</td></tr>
+      <tr><td>Hell</td><td>84–85</td><td>3,200–3,800</td><td>66–85</td><td>Poison Immune</td><td>Fast, hard to kite</td></tr>
+    </tbody>
+  </table>
+  <h3>Lore</h3>
+  <p>Ferocious pygmies from the dense jungles, Flayers attack in hordes and overwhelm the unprepared. Quick and vicious, they embody the chaos of the Kurast Wilds.</p>
+  <h3>Notable Drops</h3>
+  <ul>
+    <li><strong>Normal:</strong> Small charms, daggers</li>
+    <li><strong>Nightmare:</strong> Magic throwing knives, runes (Tal–Ral)</li>
+    <li><strong>Hell:</strong> Unique javelins, runes (Um–Mal)</li>
+  </ul>
+  <h3>Affixes</h3>
+  <ul>
+    <li><strong>Prefix:</strong> Frenzied – Moves faster with each attack</li>
+    <li><strong>Suffix:</strong> of Carnage – Extra damage in groups</li>
+  </ul>
+</section>
+
+<!-- Additional Act III monsters like Zakarum Zealot, Thorned Hulk, Fetish Shaman, Stormtree, and Mephisto would follow -->
+
+<footer>
+  &copy; 2025 Diablo II Bestiary – Act III completed by Virel
+</footer>
+
+</body>
+</html>

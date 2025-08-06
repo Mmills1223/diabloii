@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Diablo II Resurrected Bestiary</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <audio autoplay loop>
+    <source src="audio/tristram_theme.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <div style="margin: 2rem auto; text-align: center;">
+    <img src="images/diablo_logo.png" alt="Diablo II Logo" style="max-width: 100%; height: auto;">
+  </div>
+
+  <header>
+    <h1>Diablo II Resurrected Bestiary</h1>
+  </header>
+
+  <div class="nav-grid">
+    <div class="nav-card"><a href="act1.html">Act I: The Sightless Eye</a></div>
+    <div class="nav-card"><a href="act2.html">Act II: The Secret of the Vizjerei</a></div>
+    <div class="nav-card"><a href="act3.html">Act III: The Infernal Gate</a></div>
+    <div class="nav-card"><a href="act4.html">Act IV: The Harrowing</a></div>
+    <div class="nav-card"><a href="act5.html">Act V: Lord of Destruction</a></div>
+    <div class="nav-card"><a href="pandemonium.html">Pandemonium Event</a></div>
+  </div>
+
+  <footer>
+    &copy; 2025 Diablo II: Resurrected Bestiary – Created with demonic love by Virel & Michael Mills
+  </footer>
+</body>
+</html>

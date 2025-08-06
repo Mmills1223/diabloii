@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Act IV: The Burning Hells - Diablo II Bestiary</title>
+  <link rel="stylesheet" href="diablo-style.css">
+  <style>
+    body {
+      font-family: 'Diablo', serif;
+      background-color: #0d0d0d;
+      color: #e0d8b0;
+      padding: 20px;
+    }
+    header, footer {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    nav#floating-menu {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 200px;
+      height: 100%;
+      background-color: #1a1a1a;
+      border-right: 2px solid #a00;
+      padding-top: 20px;
+    }
+    nav#floating-menu ul {
+      list-style: none;
+      padding-left: 10px;
+    }
+    nav#floating-menu li {
+      margin-bottom: 15px;
+    }
+    nav#floating-menu a {
+      color: #e0d8b0;
+      text-decoration: none;
+    }
+    section {
+      margin-left: 220px;
+      padding-bottom: 60px;
+      border-bottom: 1px solid #555;
+    }
+    img {
+      height: 100px;
+      margin-right: 10px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    th, td {
+      border: 1px solid #a00;
+      padding: 8px;
+      text-align: left;
+    }
+    h2 {
+      color: #ff0000;
+      font-size: 2em;
+      margin-top: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Act IV: The Burning Hells</h1>
+    <p>Deep within the core of the world lies the Burning Hells — the very heart of Diablo's dominion. Here, the bravest face off against the Prime Evil himself.</p>
+  </header>
+
+  <nav id="floating-menu">
+    <ul>
+      <li><a href="#doom-knight">Doom Knight</a></li>
+      <li><a href="#abyss-knight">Abyss Knight</a></li>
+      <li><a href="#venom-lord">Venom Lord</a></li>
+      <li><a href="#izual">Izual</a></li>
+      <li><a href="#diablo">Diablo</a></li>
+    </ul>
+  </nav>
+
+  <section id="doom-knight">
+    <h2>Doom Knight</h2>
+    <div class="images">
+      <img src="images/doom_knight_sprite.png" alt="Doom Knight Classic Sprite">
+      <img src="images/doom_knight_render.png" alt="Doom Knight D2R Render">
+    </div>
+    <table>
+      <thead>
+        <tr><th>Difficulty</th><th>Level</th><th>Health</th><th>Base Damage</th><th>Resistances</th><th>Abilities</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Normal</td><td>27–28</td><td>342–421</td><td>23–45</td><td>Cold 33%</td><td>Charge, fast movement</td></tr>
+        <tr><td>Nightmare</td><td>61–62</td><td>1,252–1,354</td><td>52–76</td><td>Cold 50%, Fire 33%</td><td>Fast melee strikes</td></tr>
+        <tr><td>Hell</td><td>89–90</td><td>7,100–7,800</td><td>85–124</td><td>Cold 75%, Fire 50%</td><td>Pack aggression, resistance to crowd control</td></tr>
+      </tbody>
+    </table>
+    <h3>Lore</h3>
+    <p>Doom Knights are undead warriors forged in the flames of the Burning Hells. Once noble champions, they now serve the Prime Evils as relentless enforcers of chaos.</p>
+    <h3>Notable Drops</h3>
+    <ul>
+      <li><strong>Normal:</strong> War Swords, Gothic Shields, Runes (Ral–Tal)</li>
+      <li><strong>Nightmare:</strong> Rare claymores, magic armor, runes (Ort–Sol)</li>
+      <li><strong>Hell:</strong> Elite class swords, runes (Um–Gul), unique plate armor</li>
+    </ul>
+    <h3>Affixes</h3>
+    <ul>
+      <li><strong>Prefix:</strong> Spectral – Increases resistances and phasing</li>
+      <li><strong>Suffix:</strong> of Pain – Adds open wounds effect</li>
+    </ul>
+  </section>
+<section id="abyss-knight">
+  <h2>Abyss Knight</h2>
+  <div class="images">
+    <img src="images/abyss_knight_sprite.png" alt="Abyss Knight Classic Sprite">
+    <img src="images/abyss_knight_render.png" alt="Abyss Knight D2R Render">
+  </div>
+  <table>
+    <thead>
+      <tr><th>Difficulty</th><th>Level</th><th>Health</th><th>Base Damage</th><th>Resistances</th><th>Abilities</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Normal</td><td>28–29</td><td>280–360</td><td>18–35</td><td>Fire 50%</td><td>Ranged elemental attacks</td></tr>
+      <tr><td>Nightmare</td><td>62–63</td><td>1,140–1,270</td><td>44–66</td><td>Fire 75%, Lightning 33%</td><td>Fire bolt, elemental resist</td></tr>
+      <tr><td>Hell</td><td>90–91</td><td>6,800–7,600</td><td>78–105</td><td>Fire 90%, Lightning 75%</td><td>Rapid-fire projectiles, pierce resistance</td></tr>
+    </tbody>
+  </table>
+  <h3>Lore</h3>
+  <p>Abyss Knights are corrupted archers of Hell, bound to spew dark energies in long-range volleys. Their elemental strength grows stronger the deeper into the abyss they reside.</p>
+  <h3>Notable Drops</h3>
+  <ul>
+    <li><strong>Normal:</strong> Long Bows, Fire Arrows, Mana Potions</li>
+    <li><strong>Nightmare:</strong> Magic crossbows, runes (Tal–Shael), jewels</li>
+    <li><strong>Hell:</strong> Unique bows, runes (Um–Ist), crafted gear</li>
+  </ul>
+  <h3>Affixes</h3>
+  <ul>
+    <li><strong>Prefix:</strong> Cursed – Reduces player resistances</li>
+    <li><strong>Suffix:</strong> of Blasting – Increases projectile fire rate</li>
+  </ul>
+</section>
+
+<section id="venom-lord">
+  <h2>Venom Lord</h2>
+  <div class="images">
+    <img src="images/venom_lord_sprite.png" alt="Venom Lord Classic Sprite">
+    <img src="images/venom_lord_render.png" alt="Venom Lord D2R Render">
+  </div>
+  <table>
+    <thead>
+      <tr><th>Difficulty</th><th>Level</th><th>Health</th><th>Base Damage</th><th>Resistances</th><th>Abilities</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Normal</td><td>29–30</td><td>480–560</td><td>28–55</td><td>Fire 50%</td><td>Fire Breath</td></tr>
+      <tr><td>Nightmare</td><td>63–64</td><td>1,550–1,780</td><td>65–92</td><td>Fire 75%</td><td>Fireball Spread, Knockback</td></tr>
+      <tr><td>Hell</td><td>91–92</td><td>8,000–9,200</td><td>105–135</td><td>Fire 90%</td><td>Fire Enchanted, Tanky</td></tr>
+    </tbody>
+  </table>
+  <h3>Lore</h3>
+  <p>Massive demons covered in molten scales, Venom Lords serve as commanders within the armies of Hell. Their blazing breath melts armor and will alike.</p>
+  <h3>Notable Drops</h3>
+  <ul>
+    <li><strong>Normal:</strong> Scale mail, mana potions, low runes</li>
+    <li><strong>Nightmare:</strong> Rare helms, magic belts, runes (Ral–Shael)</li>
+    <li><strong>Hell:</strong> Unique armor, runes (Mal–Gul), elite polearms</li>
+  </ul>
+  <h3>Affixes</h3>
+  <ul>
+    <li><strong>Prefix:</strong> Burning – Adds fire nova</li>
+    <li><strong>Suffix:</strong> of Hellfire – Fire splash on death</li>
+  </ul>
+</section>
+
+<section id="izual">
+  <h2>Izual</h2>
+  <div class="images">
+    <img src="images/izual_sprite.png" alt="Izual Classic Sprite">
+    <img src="images/izual_render.png" alt="Izual D2R Render">
+  </div>
+  <table>
+    <thead>
+      <tr><th>Difficulty</th><th>Level</th><th>Health</th><th>Base Damage</th><th>Resistances</th><th>Abilities</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Normal</td><td>30</td><td>2,000</td><td>42–68</td><td>Cold 75%</td><td>Cold aura, strong melee</td></tr>
+      <tr><td>Nightmare</td><td>64</td><td>5,800</td><td>85–120</td><td>Cold 90%, Fire 33%</td><td>Slows enemies, high defense</td></tr>
+      <tr><td>Hell</td><td>92</td><td>22,000</td><td>135–180</td><td>Cold 100%, Fire 50%</td><td>Slows, tank, aura enhanced</td></tr>
+    </tbody>
+  </table>
+  <h3>Lore</h3>
+  <p>Once an angel in the service of the High Heavens, Izual was corrupted and imprisoned in a demon form. Now, he haunts the Plains of Despair, a tragic reminder of Heaven’s fallibility.</p>
+  <h3>Notable Drops</h3>
+  <ul>
+    <li><strong>Normal:</strong> Rare weapons, runes (Ral–Tal)</li>
+    <li><strong>Nightmare:</strong> Unique maces, rare shields, runes (Sol–Io)</li>
+    <li><strong>Hell:</strong> High runes (Um–Ist), unique body armor, elite weapons</li>
+  </ul>
+  <h3>Affixes</h3>
+  <ul>
+    <li><strong>Prefix:</strong> Possessed – Cannot be stunned</li>
+    <li><strong>Suffix:</strong> of Frost – Adds cold damage and slows enemies</li>
+  </ul>
+</section>
+<section id="abyss-knight">
+  <h2>Abyss Knight</h2>
+  <div class="images">
+    <img src="images/abyss_knight_sprite.png" alt="Abyss Knight Classic Sprite">
+    <img src="images/abyss_knight_render.png" alt="Abyss Knight D2R Render">
+  </div>
+  <table>
+    <thead>
+      <tr><th>Difficulty</th><th>Level</th><th>Health</th><th>Base Damage</th><th>Resistances</th><th>Abilities</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Normal</td><td>28–29</td><td>280–360</td><td>18–35</td><td>Fire 50%</td><td>Ranged elemental attacks</td></tr>
+      <tr><td>Nightmare</td><td>62–63</td><td>1,140–1,270</td><td>44–66</td><td>Fire 75%, Lightning 33%</td><td>Fire bolt, elemental resist</td></tr>
+      <tr><td>Hell</td><td>90–91</td><td>6,800–7,600</td><td>78–105</td><td>Fire 90%, Lightning 75%</td><td>Rapid-fire projectiles, pierce resistance</td></tr>
+    </tbody>
+  </table>
+  <h3>Lore</h3>
+  <p>Abyss Knights are corrupted archers of Hell, bound to spew dark energies in long-range volleys. Their elemental strength grows stronger the deeper into the abyss they reside.</p>
+  <h3>Notable Drops</h3>
+  <ul>
+    <li><strong>Normal:</strong> Long Bows, Fire Arrows, Mana Potions</li>
+    <li><strong>Nightmare:</strong> Magic crossbows, runes (Tal–Shael), jewels</li>
+    <li><strong>Hell:</strong> Unique bows, runes (Um–Ist), crafted gear</li>
+  </ul>
+  <h3>Affixes</h3>
+  <ul>
+    <li><strong>Prefix:</strong> Cursed – Reduces player resistances</li>
+    <li><strong>Suffix:</strong> of Blasting – Increases projectile fire rate</li>
+  </ul>
+</section>
+
+<section id="venom-lord">
+  <h2>Venom Lord</h2>
+  <div class="images">
+    <img src="images/venom_lord_sprite.png" alt="Venom Lord Classic Sprite">
+    <img src="images/venom_lord_render.png" alt="Venom Lord D2R Render">
+  </div>
+  <table>
+    <thead>
+      <tr><th>Difficulty</th><th>Level</th><th>Health</th><th>Base Damage</th><th>Resistances</th><th>Abilities</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Normal</td><td>29–30</td><td>480–560</td><td>28–55</td><td>Fire 50%</td><td>Fire Breath</td></tr>
+      <tr><td>Nightmare</td><td>63–64</td><td>1,550–1,780</td><td>65–92</td><td>Fire 75%</td><td>Fireball Spread, Knockback</td></tr>
+      <tr><td>Hell</td><td>91–92</td><td>8,000–9,200</td><td>105–135</td><td>Fire 90%</td><td>Fire Enchanted, Tanky</td></tr>
+    </tbody>
+  </table>
+  <h3>Lore</h3>
+  <p>Massive demons covered in molten scales, Venom Lords serve as commanders within the armies of Hell. Their blazing breath melts armor and will alike.</p>
+  <h3>Notable Drops</h3>
+  <ul>
+    <li><strong>Normal:</strong> Scale mail, mana potions, low runes</li>
+    <li><strong>Nightmare:</strong> Rare helms, magic belts, runes (Ral–Shael)</li>
+    <li><strong>Hell:</strong> Unique armor, runes (Mal–Gul), elite polearms</li>
+  </ul>
+  <h3>Affixes</h3>
+  <ul>
+    <li><strong>Prefix:</strong> Burning – Adds fire nova</li>
+    <li><strong>Suffix:</strong> of Hellfire – Fire splash on death</li>
+  </ul>
+</section>
+
+<section id="izual">
+  <h2>Izual</h2>
+  <div class="images">
+    <img src="images/izual_sprite.png" alt="Izual Classic Sprite">
+    <img src="images/izual_render.png" alt="Izual D2R Render">
+  </div>
+  <table>
+    <thead>
+      <tr><th>Difficulty</th><th>Level</th><th>Health</th><th>Base Damage</th><th>Resistances</th><th>Abilities</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Normal</td><td>30</td><td>2,000</td><td>42–68</td><td>Cold 75%</td><td>Cold aura, strong melee</td></tr>
+      <tr><td>Nightmare</td><td>64</td><td>5,800</td><td>85–120</td><td>Cold 90%, Fire 33%</td><td>Slows enemies, high defense</td></tr>
+      <tr><td>Hell</td><td>92</td><td>22,000</td><td>135–180</td><td>Cold 100%, Fire 50%</td><td>Slows, tank, aura enhanced</td></tr>
+    </tbody>
+  </table>
+  <h3>Lore</h3>
+  <p>Once an angel in the service of the High Heavens, Izual was corrupted and imprisoned in a demon form. Now, he haunts the Plains of Despair, a tragic reminder of Heaven’s fallibility.</p>
+  <h3>Notable Drops</h3>
+  <ul>
+    <li><strong>Normal:</strong> Rare weapons, runes (Ral–Tal)</li>
+    <li><strong>Nightmare:</strong> Unique maces, rare shields, runes (Sol–Io)</li>
+    <li><strong>Hell:</strong> High runes (Um–Ist), unique body armor, elite weapons</li>
+  </ul>
+  <h3>Affixes</h3>
+  <ul>
+    <li><strong>Prefix:</strong> Possessed – Cannot be stunned</li>
+    <li><strong>Suffix:</strong> of Frost – Adds cold damage and slows enemies</li>
+  </ul>
+</section>
+
+<section id="hephasto">
+  <h2>Hephasto the Armorer</h2>
+  <div class="images">
+    <img src="images/hephasto_sprite.png" alt="Hephasto Classic Sprite">
+    <img src="images/hephasto_render.png" alt="Hephasto D2R Render">
+  </div>
+  <table>
+    <thead>
+      <tr><th>Difficulty</th><th>Level</th><th>Health</th><th>Base Damage</th><th>Resistances</th><th>Abilities</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Normal</td><td>31</td><td>3,000</td><td>56–75</td><td>Fire 50%</td><td>Extra Strong, Cursed</td></tr>
+      <tr><td>Nightmare</td><td>65</td><td>8,600</td><td>120–148</td><td>Fire 75%</td><td>Crushing Blow, high defense</td></tr>
+      <tr><td>Hell</td><td>93</td><td>24,500</td><td>165–210</td><td>Fire 90%</td><td>Massive damage, immune to knockback</td></tr>
+    </tbody>
+  </table>
+  <h3>Lore</h3>
+  <p>Hephasto guards the Hellforge, where souls are bound and corrupted. A towering brute, his strikes can shatter bone and steel alike. Many have fallen trying to claim his forge hammer.</p>
+  <h3>Notable Drops</h3>
+  <ul>
+    <li><strong>Normal:</strong> Hellforge quest rune (up to Amn), flails</li>
+    <li><strong>Nightmare:</strong> Hellforge rune (up to Um), rare mauls</li>
+    <li><strong>Hell:</strong> Hellforge rune (Gul–Ist), unique axes, socketed armor</li>
+  </ul>
+  <h3>Affixes</h3>
+  <ul>
+    <li><strong>Prefix:</strong> Brutal – Increased damage output</li>
+    <li><strong>Suffix:</strong> of Annihilation – Chance to cause explosion on kill</li>
+  </ul>
+</section>
+<section id="diablo">
+  <h2>Diablo, Lord of Terror</h2>
+  <div class="images">
+    <img src="images/diablo_sprite.png" alt="Diablo Classic Sprite">
+    <img src="images/diablo_render.png" alt="Diablo D2R Render">
+  </div>
+  <table>
+    <thead>
+      <tr><th>Difficulty</th><th>Level</th><th>Health</th><th>Base Damage</th><th>Resistances</th><th>Abilities</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Normal</td><td>40</td><td>6,000</td><td>60–90</td><td>Fire 50%, Lightning 50%</td><td>Firestorm, Red Lightning Hose, Summons</td></tr>
+      <tr><td>Nightmare</td><td>70</td><td>20,000</td><td>130–190</td><td>Fire 75%, Lightning 75%</td><td>Teleport, Fire Nova, Minion Spawns</td></tr>
+      <tr><td>Hell</td><td>94</td><td>40,000</td><td>220–285</td><td>Fire 85%, Lightning 85%, Cold 33%</td><td>Massive AoE, Knockback, Fast Recovery</td></tr>
+    </tbody>
+  </table>
+  <h3>Lore</h3>
+  <p>The youngest of the Prime Evils, Diablo is the embodiment of fear and terror. Imprisoned beneath Tristram and then unleashed, he now rules the Chaos Sanctuary in Act IV, awaiting challengers to his throne.</p>
+  <h3>Notable Drops</h3>
+  <ul>
+    <li><strong>Normal:</strong> Rare jewels, rings, and armor</li>
+    <li><strong>Nightmare:</strong> Unique weapons, runes (Io–Um), high magic gear</li>
+    <li><strong>Hell:</strong> Unique class-specific items, runes (Mal–Gul), elite armor and charms</li>
+  </ul>
+  <h3>Affixes</h3>
+  <ul>
+    <li><strong>Prefix:</strong> Infernal – Fire enchanted burst</li>
+    <li><strong>Suffix:</strong> of Terror – Fear aura drains stamina and defense</li>
+  </ul>
+</section>
+
+</body>
+<section id="act-v">
+  <h1>Act V: Lord of Destruction</h1>
+  <p>The frozen highlands of Mount Arreat harbor fierce and unrelenting enemies. From siege beasts to corrupted barbarians, each step toward the Worldstone Keep brings greater danger.</p>
+</section>
+</body>
+</html>
+
+</body>
+</html>

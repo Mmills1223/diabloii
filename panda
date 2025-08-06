@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pandemonium Event – Uber Bosses</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <h1>Pandemonium Event</h1>
+</header>
+
+<section id="uber-diablo">
+  <h2>Diablo Clone</h2>
+  <div class="images">
+    <img src="images/dclone_sprite.png" alt="Diablo Clone Sprite">
+    <img src="images/dclone_render.png" alt="Diablo Clone D2R Render">
+  </div>
+  <table>
+    <thead>
+      <tr><th>Difficulty</th><th>Level</th><th>Health</th><th>Base Damage</th><th>Resistances</th><th>Abilities</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Hell Only</td><td>110</td><td>655,000</td><td>260–320</td><td>All 95%</td><td>Apocalypse, Firestorm, Cold Touch</td></tr>
+    </tbody>
+  </table>
+  <h3>Lore</h3>
+  <p>Diablo's ultimate manifestation, summoned through massive Stone of Jordan turn-ins. Wields immense power and drops the Annihilus charm.</p>
+  <h3>Notable Drops</h3>
+  <ul>
+    <li><strong>Hell:</strong> <span style="color: gold;">Annihilus</span> (Unique Small Charm)</li>
+  </ul>
+</section>
+
+<section id="uber-izual">
+  <h2>Uber Izual</h2>
+  <div class="images">
+    <img src="images/uber_izual_sprite.png" alt="Uber Izual Sprite">
+    <img src="images/uber_izual_render.png" alt="Uber Izual D2R Render">
+  </div>
+  <table>
+    <thead>
+      <tr><th>Difficulty</th><th>Level</th><th>Health</th><th>Base Damage</th><th>Resistances</th><th>Abilities</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Hell Only</td><td>110</td><td>200,000</td><td>200–260</td><td>Cold Immune, Fire 75%</td><td>Charge, Cold Nova</td></tr>
+    </tbody>
+  </table>
+  <h3>Lore</h3>
+  <p>One of the three gatekeepers in the Pandemonium Event. A former angel, twisted by hatred.</p>
+  <h3>Notable Drops</h3>
+  <ul>
+    <li>Diablo's Horn</li>
+  </ul>
+</section>
+
+<section id="uber-duriel">
+  <h2>Uber Duriel</h2>
+  <div class="images">
+    <img src="images/uber_duriel_sprite.png" alt="Uber Duriel Sprite">
+    <img src="images/uber_duriel_render.png" alt="Uber Duriel D2R Render">
+  </div>
+  <table>
+    <thead>
+      <tr><th>Difficulty</th><th>Level</th><th>Health</th><th>Base Damage</th><th>Resistances</th><th>Abilities</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Hell Only</td><td>110</td><td>250,000</td><td>240–300</td><td>Cold Immune, Poison 90%</td><td>Cold Aura, Jab</td></tr>
+    </tbody>
+  </table>
+  <h3>Notable Drops</h3>
+  <ul>
+    <li>Baal's Eye</li>
+  </ul>
+</section>
+
+<section id="uber-lilith">
+  <h2>Uber Lilith</h2>
+  <div class="images">
+    <img src="images/uber_lilith_sprite.png" alt="Uber Lilith Sprite">
+    <img src="images/uber_lilith_render.png" alt="Uber Lilith D2R Render">
+  </div>
+  <table>
+    <thead>
+      <tr><th>Difficulty</th><th>Level</th><th>Health</th><th>Base Damage</th><th>Resistances</th><th>Abilities</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Hell Only</td><td>110</td><td>350,000</td><td>280–340</td><td>Poison Immune, Fire 80%</td><td>Poison Cloud, Frenzy</td></tr>
+    </tbody>
+  </table>
+  <h3>Notable Drops</h3>
+  <ul>
+    <li>Mephisto's Brain</li>
+  </ul>
+</section>
+
+<section id="uber-tristram">
+  <h2>Uber Tristram: Mephisto, Baal, Diablo</h2>
+  <div class="images">
+    <img src="images/uber_tristram_group.png" alt="Uber Tristram Group Render">
+  </div>
+  <table>
+    <thead>
+      <tr><th>Boss</th><th>Health</th><th>Damage</th><th>Abilities</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Uber Mephisto</td><td>650,000</td><td>Cold/Lightning: 260–310</td><td>Conviction Aura, Blizzard</td></tr>
+      <tr><td>Uber Baal</td><td>660,000</td><td>Magic/Fire: 280–340</td><td>Hoarfrost, Clone</td></tr>
+      <tr><td>Uber Diablo</td><td>655,000</td><td>Fire/Physical: 300–360</td><td>Firestorm, Armageddon</td></tr>
+    </tbody>
+  </table>
+  <h3>Notable Drops</h3>
+  <ul>
+    <li><span style="color: gold;">Hellfire Torch</span> (Unique Large Charm)</li>
+    <li>Standard of Heroes (Trophy)</li>
+  </ul>
+</section>
+
+<footer>
+  &copy; 2025 Diablo II Bestiary – Pandemonium Event completed by Virel
+</footer>
+
+</body>
+</html>
