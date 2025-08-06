@@ -1,0 +1,600 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Diablo II: Resurrected Bestiary – Act I</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body { background-color: #0d0d0d; color: #f5f5f5; font-family: sans-serif; padding: 2rem; }
+    h1, h2, h3 { color: #ff0000; }
+    .monster-entry { margin-bottom: 3rem; padding: 1rem; border: 1px solid #700; background-color: #1a1a1a; border-radius: 8px; }
+    .images img { height: 100px; margin-right: 10px; }
+    table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+    th, td { border: 1px solid #600; padding: 0.5rem; }
+    th { background-color: #300; }
+    ul { margin-top: 0.5rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Act I: The Sightless Eye</h1>
+  </header>
+  <main>
+
+    <section class="monster-entry" id="zombie">
+      <h2>Zombie</h2>
+      <div class="images">
+        <img src="images/zombie_sprite.png" alt="Zombie Classic Sprite">
+        <img src="images/zombie_render.png" alt="Zombie D2R Render">
+      </div>
+      <h3>Where to Find</h3>
+      <p>Blood Moor, Den of Evil</p>
+      <table>
+        <thead>
+          <tr><th>Difficulty</th><th>Level</th><th>Health</th><th>Damage</th><th>Resistances</th><th>Abilities</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Normal</td><td>1–2</td><td>30–42</td><td>2–5</td><td>Poison 50%</td><td>Slow attack</td></tr>
+          <tr><td>Nightmare</td><td>36–38</td><td>250–320</td><td>12–18</td><td>Poison 75%</td><td>Cold enchanted</td></tr>
+          <tr><td>Hell</td><td>66–68</td><td>820–960</td><td>28–34</td><td>Poison Immune</td><td>Pack tactics</td></tr>
+        </tbody>
+      </table>
+      <h3>Notable Drops</h3>
+      <ul>
+        <li><strong>Normal:</strong> Minor potions, Leather Armor</li>
+        <li><strong>Nightmare:</strong> Magic Short Sword, Tal Rune</li>
+        <li><strong>Hell:</strong> Unique Buckler, Amn–Io Runes</li>
+      </ul>
+      <h3>Affixes</h3>
+      <ul>
+        <li><strong>Prefix:</strong> Cold-Enchanted – Adds cold damage</li>
+        <li><strong>Suffix:</strong> of Decay – Leaves poison cloud on death</li>
+      </ul>
+    </section>
+
+    <section class="monster-entry" id="fallen">
+      <h2>Fallen</h2>
+      <div class="images">
+        <img src="images/fallen_sprite.png" alt="Fallen Sprite">
+        <img src="images/fallen_render.png" alt="Fallen D2R Render">
+      </div>
+      <h3>Where to Find</h3>
+      <p>Blood Moor, Cold Plains, Underground Passage</p>
+      <table>
+        <thead>
+          <tr><th>Difficulty</th><th>Level</th><th>Health</th><th>Damage</th><th>Resistances</th><th>Abilities</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Normal</td><td>1–2</td><td>20–28</td><td>1–4</td><td>None</td><td>Flee on ally death</td></tr>
+          <tr><td>Nightmare</td><td>36–38</td><td>180–220</td><td>8–14</td><td>Cold 25%</td><td>Fast runner</td></tr>
+          <tr><td>Hell</td><td>66–68</td><td>620–760</td><td>22–28</td><td>Cold 50%</td><td>Aggressive tactics</td></tr>
+        </tbody>
+      </table>
+      <h3>Notable Drops</h3>
+      <ul>
+        <li><strong>Normal:</strong> Gold, Throwing Knife</li>
+        <li><strong>Nightmare:</strong> Magic Axe, Eth Rune</li>
+        <li><strong>Hell:</strong> Rare Javelin, Shael Rune</li>
+      </ul>
+      <h3>Affixes</h3>
+      <ul>
+        <li><strong>Prefix:</strong> Burning – Fire damage</li>
+        <li><strong>Suffix:</strong> of Haste – Moves faster</li>
+      </ul>
+    </section>
+
+    <section class="monster-entry" id="skeleton">
+      <h2>Skeleton</h2>
+      <div class="images">
+        <img src="images/skeleton_sprite.png" alt="Skeleton Sprite">
+        <img src="images/skeleton_render.png" alt="Skeleton D2R Render">
+      </div>
+      <h3>Where to Find</h3>
+      <p>Den of Evil, Crypt, Mausoleum</p>
+      <table>
+        <thead>
+          <tr><th>Difficulty</th><th>Level</th><th>Health</th><th>Damage</th><th>Resistances</th><th>Abilities</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Normal</td><td>2–4</td><td>25–40</td><td>3–6</td><td>Poison 25%</td><td>Undead, Melee</td></tr>
+          <tr><td>Nightmare</td><td>37–39</td><td>280–360</td><td>10–16</td><td>Poison 50%</td><td>Slow attack</td></tr>
+          <tr><td>Hell</td><td>67–69</td><td>900–1050</td><td>24–30</td><td>Poison Immune</td><td>Shieldbearers</td></tr>
+        </tbody>
+      </table>
+      <h3>Notable Drops</h3>
+      <ul>
+        <li><strong>Normal:</strong> Short Sword, Buckler</li>
+        <li><strong>Nightmare:</strong> Rare Wand, Tir Rune</li>
+        <li><strong>Hell:</strong> Set Helm, Thul–Io Runes</li>
+      </ul>
+      <h3>Affixes</h3>
+      <ul>
+        <li><strong>Prefix:</strong> Spectral – Magic damage</li>
+        <li><strong>Suffix:</strong> of Stone – Extra defense</li>
+      </ul>
+    </section>
+
+  
+    <section class="monster-entry" id="fallen-shaman">
+      <h2>Fallen Shaman</h2>
+      <div class="images">
+        <img src="images/fallen_shaman_sprite.png" alt="Fallen Shaman Sprite">
+        <img src="images/fallen_shaman_render.png" alt="Fallen Shaman D2R Render">
+      </div>
+      <h3>Where to Find</h3>
+      <p>Cold Plains, Stony Field, Tristram</p>
+      <table>
+        <thead>
+          <tr><th>Difficulty</th><th>Level</th><th>Health</th><th>Damage</th><th>Resistances</th><th>Abilities</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Normal</td><td>3–5</td><td>35–50</td><td>2–5 (Fire)</td><td>Fire 50%</td><td>Firebolt, Revive Fallen</td></tr>
+          <tr><td>Nightmare</td><td>38–40</td><td>300–380</td><td>14–22</td><td>Fire 75%</td><td>Faster revive</td></tr>
+          <tr><td>Hell</td><td>68–70</td><td>1000–1200</td><td>30–38</td><td>Fire Immune</td><td>Fire Enchanted</td></tr>
+        </tbody>
+      </table>
+      <h3>Notable Drops</h3>
+      <ul>
+        <li><strong>Normal:</strong> Short Staff, Scrolls of Firebolt</li>
+        <li><strong>Nightmare:</strong> Magic Wand, Ral Rune</li>
+        <li><strong>Hell:</strong> Unique Wand, Ort–Lum Runes</li>
+      </ul>
+      <h3>Affixes</h3>
+      <ul>
+        <li><strong>Prefix:</strong> Fiery – Adds fire nova on death</li>
+        <li><strong>Suffix:</strong> of Flames – Extra fire damage</li>
+      </ul>
+    </section>
+
+    <section class="monster-entry" id="quill-rat">
+      <h2>Quill Rat</h2>
+      <div class="images">
+        <img src="images/quill_rat_sprite.png" alt="Quill Rat Sprite">
+        <img src="images/quill_rat_render.png" alt="Quill Rat D2R Render">
+      </div>
+      <h3>Where to Find</h3>
+      <p>Blood Moor, Cold Plains</p>
+      <table>
+        <thead>
+          <tr><th>Difficulty</th><th>Level</th><th>Health</th><th>Damage</th><th>Resistances</th><th>Abilities</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Normal</td><td>1–2</td><td>22–30</td><td>1–4 (Ranged)</td><td>None</td><td>Fires quills</td></tr>
+          <tr><td>Nightmare</td><td>36–38</td><td>210–260</td><td>10–15</td><td>Poison 25%</td><td>Fast attack</td></tr>
+          <tr><td>Hell</td><td>66–68</td><td>700–800</td><td>25–31</td><td>Poison 50%</td><td>Rapid-fire</td></tr>
+        </tbody>
+      </table>
+      <h3>Notable Drops</h3>
+      <ul>
+        <li><strong>Normal:</strong> Arrows, Minor healing potion</li>
+        <li><strong>Nightmare:</strong> Magic Throwing Spear, Eth Rune</li>
+        <li><strong>Hell:</strong> Rare Bow, Sol–Io Runes</li>
+      </ul>
+      <h3>Affixes</h3>
+      <ul>
+        <li><strong>Prefix:</strong> Spined – Increased ranged attack</li>
+        <li><strong>Suffix:</strong> of Needles – Piercing damage</li>
+      </ul>
+    </section>
+
+  
+    <section class="monster-entry" id="corrupted-rogue">
+      <h2>Corrupted Rogue</h2>
+      <div class="images">
+        <img src="images/corrupted_rogue_sprite.png" alt="Corrupted Rogue Sprite">
+        <img src="images/corrupted_rogue_render.png" alt="Corrupted Rogue D2R Render">
+      </div>
+      <h3>Where to Find</h3>
+      <p>Cold Plains, Burial Grounds, Tower Cellar</p>
+      <table>
+        <thead>
+          <tr><th>Difficulty</th><th>Level</th><th>Health</th><th>Damage</th><th>Resistances</th><th>Abilities</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Normal</td><td>4–6</td><td>35–45</td><td>4–8</td><td>Cold 25%</td><td>Fast attack speed</td></tr>
+          <tr><td>Nightmare</td><td>39–41</td><td>360–460</td><td>16–24</td><td>Cold 50%</td><td>Ranged multishot</td></tr>
+          <tr><td>Hell</td><td>69–71</td><td>1100–1300</td><td>32–40</td><td>Cold Immune</td><td>Deadly strike</td></tr>
+        </tbody>
+      </table>
+      <h3>Notable Drops</h3>
+      <ul>
+        <li><strong>Normal:</strong> Bow, Leather Armor</li>
+        <li><strong>Nightmare:</strong> Magic Helm, Tir Rune</li>
+        <li><strong>Hell:</strong> Rare Gloves, Fal Rune</li>
+      </ul>
+      <h3>Affixes</h3>
+      <ul>
+        <li><strong>Prefix:</strong> Sniping – Increased attack rating</li>
+        <li><strong>Suffix:</strong> of Haste – Increased movement speed</li>
+      </ul>
+    </section>
+
+    <section class="monster-entry" id="the-smith">
+      <h2>The Smith</h2>
+      <div class="images">
+        <img src="images/the_smith_sprite.png" alt="The Smith Sprite">
+        <img src="images/the_smith_render.png" alt="The Smith D2R Render">
+      </div>
+      <h3>Where to Find</h3>
+      <p>Barracks, Monastery</p>
+      <table>
+        <thead>
+          <tr><th>Difficulty</th><th>Level</th><th>Health</th><th>Damage</th><th>Resistances</th><th>Abilities</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Normal</td><td>13</td><td>380</td><td>18–28</td><td>Fire 40%</td><td>Stun, Heavy melee</td></tr>
+          <tr><td>Nightmare</td><td>45</td><td>1800</td><td>55–70</td><td>Fire 70%</td><td>Extra Strong</td></tr>
+          <tr><td>Hell</td><td>79</td><td>8200</td><td>120–140</td><td>Fire Immune</td><td>Crushing Blow</td></tr>
+        </tbody>
+      </table>
+      <h3>Notable Drops</h3>
+      <ul>
+        <li><strong>Normal:</strong> Horadric Malus Quest Drop, Chain Mail</li>
+        <li><strong>Nightmare:</strong> Rare Axe, Sol Rune</li>
+        <li><strong>Hell:</strong> Unique Weapon, Gul Rune</li>
+      </ul>
+      <h3>Affixes</h3>
+      <ul>
+        <li><strong>Prefix:</strong> Brutal – Extra damage</li>
+        <li><strong>Suffix:</strong> of Shattering – Ignores target defense</li>
+      </ul>
+    </section>
+
+    <section class="monster-entry" id="andariel">
+      <h2>Andariel</h2>
+      <div class="images">
+        <img src="images/andariel_sprite.png" alt="Andariel Sprite">
+        <img src="images/andariel_render.png" alt="Andariel D2R Render">
+      </div>
+      <h3>Where to Find</h3>
+      <p>Catacombs Level 4</p>
+      <table>
+        <thead>
+          <tr><th>Difficulty</th><th>Level</th><th>Health</th><th>Damage</th><th>Resistances</th><th>Abilities</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Normal</td><td>12</td><td>1216</td><td>23–35 (Poison)</td><td>Poison Immune</td><td>Poison Nova, Poison Spray</td></tr>
+          <tr><td>Nightmare</td><td>49</td><td>23,232</td><td>80–120</td><td>Poison Immune</td><td>Extra Strong, Cursed</td></tr>
+          <tr><td>Hell</td><td>75</td><td>96,000</td><td>140–190</td><td>Poison Immune, Fire 50%</td><td>Deadly poison nova, fire vulnerability</td></tr>
+        </tbody>
+      </table>
+      <h3>Notable Drops</h3>
+      <ul>
+        <li><strong>Normal:</strong> Ring of the Snake, Staff of Kings</li>
+        <li><strong>Nightmare:</strong> Unique Gloves, Runes (Shael–Sol)</li>
+        <li><strong>Hell:</strong> Andariel's Visage, SoJ (rare), Pul–Gul Runes</li>
+      </ul>
+      <h3>Affixes</h3>
+      <ul>
+        <li><strong>Prefix:</strong> Plagued – Massive poison cloud</li>
+        <li><strong>Suffix:</strong> of Decay – Reduces poison resistance</li>
+      </ul>
+    </section>
+
+  
+    <!-- Unique Variant: Zombie - Corpsefire -->
+    <section class="unique-monster" id="corpsefire">
+      <h3>Unique: Corpsefire (Zombie Variant)</h3>
+      <p><strong>Location:</strong> Den of Evil (Act I)</p>
+      <table>
+        <thead>
+          <tr><th>Difficulty</th><th>Level</th><th>Health</th><th>Damage</th><th>Resistances</th><th>Abilities</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Normal</td><td>2</td><td>78</td><td>6–8</td><td>Cold 50%</td><td>Extra Fast</td></tr>
+          <tr><td>Nightmare</td><td>37</td><td>1120</td><td>30–42</td><td>Cold Immune</td><td>Cold Enhanced</td></tr>
+          <tr><td>Hell</td><td>68</td><td>4650</td><td>64–78</td><td>Cold Immune</td><td>Cold Enchanted, Extra Fast</td></tr>
+        </tbody>
+      </table>
+      <h4>Lore</h4>
+      <p>Corpsefire was once a humble grave keeper, now twisted by demonic energies into a frigid vessel of death. His icy touch chills the soul.</p>
+      <h4>Notable Drops</h4>
+      <ul>
+        <li><strong>Normal:</strong> Crude Club, Minor Healing Potion</li>
+        <li><strong>Nightmare:</strong> Rare Mace, Tir Rune</li>
+        <li><strong>Hell:</strong> Unique Mace, Amn Rune</li>
+      </ul>
+      <h4>Affixes</h4>
+      <ul>
+        <li><strong>Prefix:</strong> Frostborn – Adds cold damage to attacks</li>
+        <li><strong>Suffix:</strong> of Speed – Increased movement and attack rate</li>
+      </ul>
+    </section>
+
+    <!-- Unique Variant: Fallen - Rakanishu -->
+    <section class="unique-monster" id="rakanishu">
+      <h3>Unique: Rakanishu (Fallen Variant)</h3>
+      <p><strong>Location:</strong> Stony Field (Act I)</p>
+      <table>
+        <thead>
+          <tr><th>Difficulty</th><th>Level</th><th>Health</th><th>Damage</th><th>Resistances</th><th>Abilities</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Normal</td><td>8</td><td>156</td><td>12–18</td><td>Lightning 50%</td><td>Lightning Enchanted</td></tr>
+          <tr><td>Nightmare</td><td>43</td><td>1980</td><td>40–58</td><td>Lightning Immune</td><td>Lightning Sparks</td></tr>
+          <tr><td>Hell</td><td>77</td><td>7200</td><td>92–110</td><td>Lightning Immune</td><td>Lightning Nova on death</td></tr>
+        </tbody>
+      </table>
+      <h4>Lore</h4>
+      <p>Rakanishu channels the power of storm clouds, unleashing his fury with crackling bolts. Despite his small size, his power is immense.</p>
+      <h4>Notable Drops</h4>
+      <ul>
+        <li><strong>Normal:</strong> Chipped Gems, Magic Buckler</li>
+        <li><strong>Nightmare:</strong> Rare Dagger, Eth Rune</li>
+        <li><strong>Hell:</strong> Unique Amulet, Lum Rune</li>
+      </ul>
+      <h4>Affixes</h4>
+      <ul>
+        <li><strong>Prefix:</strong> Charged – Adds lightning nova</li>
+        <li><strong>Suffix:</strong> of Shock – Adds bonus lightning damage</li>
+      </ul>
+    </section>
+
+    <!-- Unique Variant: Skeleton - Bishibosh -->
+    <section class="unique-monster" id="bishibosh">
+      <h3>Unique: Bishibosh (Fallen Shaman Variant)</h3>
+      <p><strong>Location:</strong> Cold Plains (Act I)</p>
+      <table>
+        <thead>
+          <tr><th>Difficulty</th><th>Level</th><th>Health</th><th>Damage</th><th>Resistances</th><th>Abilities</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Normal</td><td>5</td><td>120</td><td>9–12</td><td>Fire 50%</td><td>Fireball, Extra Strong</td></tr>
+          <tr><td>Nightmare</td><td>40</td><td>1600</td><td>36–50</td><td>Fire Immune</td><td>Fire Enhanced, Minion Revive</td></tr>
+          <tr><td>Hell</td><td>72</td><td>6800</td><td>88–106</td><td>Fire Immune</td><td>Firestorm on death</td></tr>
+        </tbody>
+      </table>
+      <h4>Lore</h4>
+      <p>Bishibosh is a shaman of legendary cruelty, feared for his unrelenting resurrection of fallen allies and devastating pyromancy.</p>
+      <h4>Notable Drops</h4>
+      <ul>
+        <li><strong>Normal:</strong> Scepter, Minor Mana Potion</li>
+        <li><strong>Nightmare:</strong> Rare Wand, Tal Rune</li>
+        <li><strong>Hell:</strong> Unique Staff, Ko Rune</li>
+      </ul>
+      <h4>Affixes</h4>
+      <ul>
+        <li><strong>Prefix:</strong> Incinerating – Casts firestorm</li>
+        <li><strong>Suffix:</strong> of Revival – Revives minions periodically</li>
+      </ul>
+    </section>
+
+  
+    <!-- Unique: The Countess -->
+    <section class="unique-monster" id="countess">
+      <h3>Unique: The Countess</h3>
+      <p><strong>Location:</strong> Forgotten Tower – Black Marsh (Act I)</p>
+      <table>
+        <thead>
+          <tr><th>Difficulty</th><th>Level</th><th>Health</th><th>Damage</th><th>Resistances</th><th>Abilities</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Normal</td><td>11</td><td>300</td><td>20–35</td><td>Fire 50%</td><td>Fireball, Teleport</td></tr>
+          <tr><td>Nightmare</td><td>45</td><td>2700</td><td>60–84</td><td>Fire Immune</td><td>Extra Strong, Fire Enchanted</td></tr>
+          <tr><td>Hell</td><td>82</td><td>9800</td><td>108–140</td><td>Fire Immune</td><td>Rune Drop Bonus, Firestorm on death</td></tr>
+        </tbody>
+      </table>
+      <h4>Lore</h4>
+      <p>The Countess was a noblewoman turned to dark sorcery in pursuit of eternal youth. Now she haunts her crumbling tower, hoarding runes and guarding dark secrets.</p>
+      <h4>Notable Drops</h4>
+      <ul>
+        <li><strong>Normal:</strong> El–Ral runes, magic armor</li>
+        <li><strong>Nightmare:</strong> Tal–Ko runes, rare weapons</li>
+        <li><strong>Hell:</strong> Lum–Ist runes, unique gear</li>
+      </ul>
+      <h4>Affixes</h4>
+      <ul>
+        <li><strong>Prefix:</strong> Sorcerous – Increased mana regen</li>
+        <li><strong>Suffix:</strong> of Flame – Adds firebolt effect</li>
+      </ul>
+    </section>
+
+    <!-- Unique: Bonebreaker -->
+    <section class="unique-monster" id="bonebreaker">
+      <h3>Unique: Bonebreaker</h3>
+      <p><strong>Location:</strong> Cave Level 2 – Cold Plains (Act I)</p>
+      <table>
+        <thead>
+          <tr><th>Difficulty</th><th>Level</th><th>Health</th><th>Damage</th><th>Resistances</th><th>Abilities</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Normal</td><td>7</td><td>260</td><td>16–24</td><td>Physical 25%</td><td>Extra Strong</td></tr>
+          <tr><td>Nightmare</td><td>42</td><td>2100</td><td>48–72</td><td>Magic Resistant</td><td>Crushing Blow</td></tr>
+          <tr><td>Hell</td><td>78</td><td>7400</td><td>102–130</td><td>Magic Immune</td><td>Stunning Hits</td></tr>
+        </tbody>
+      </table>
+      <h4>Lore</h4>
+      <p>Bonebreaker lurks in the deep, smashing bones of trespassers for sport. His brutal strength is feared even among other demons.</p>
+      <h4>Notable Drops</h4>
+      <ul>
+        <li><strong>Normal:</strong> Large Axe, healing potions</li>
+        <li><strong>Nightmare:</strong> Rare heavy weapon, runes</li>
+        <li><strong>Hell:</strong> Unique blunt weapon, Shael–Pul runes</li>
+      </ul>
+      <h4>Affixes</h4>
+      <ul>
+        <li><strong>Prefix:</strong> Crushing – Adds knockback and stun</li>
+        <li><strong>Suffix:</strong> of Destruction – Bonus damage to armor</li>
+      </ul>
+    </section>
+
+    <!-- Unique: Coldcrow -->
+    <section class="unique-monster" id="coldcrow">
+      <h3>Unique: Coldcrow</h3>
+      <p><strong>Location:</strong> Cave Level 1 – Cold Plains (Act I)</p>
+      <table>
+        <thead>
+          <tr><th>Difficulty</th><th>Level</th><th>Health</th><th>Damage</th><th>Resistances</th><th>Abilities</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Normal</td><td>6</td><td>200</td><td>12–20</td><td>Cold 50%</td><td>Cold Enchanted, Extra Fast</td></tr>
+          <tr><td>Nightmare</td><td>41</td><td>2000</td><td>46–66</td><td>Cold Immune</td><td>Cold Nova</td></tr>
+          <tr><td>Hell</td><td>76</td><td>7200</td><td>96–118</td><td>Cold Immune</td><td>Shatters on death</td></tr>
+        </tbody>
+      </table>
+      <h4>Lore</h4>
+      <p>Coldcrow commands icy winds to ambush her victims, leaving only frozen corpses behind. She nests in the dark, waiting to strike swiftly.</p>
+      <h4>Notable Drops</h4>
+      <ul>
+        <li><strong>Normal:</strong> Short Bow, Cold arrows</li>
+        <li><strong>Nightmare:</strong> Rare short bows, Sol–Tal runes</li>
+        <li><strong>Hell:</strong> Unique Bow, Lum–Um runes</li>
+      </ul>
+      <h4>Affixes</h4>
+      <ul>
+        <li><strong>Prefix:</strong> Frostbitten – Adds cold nova effect</li>
+        <li><strong>Suffix:</strong> of Haste – Enhanced movement speed</li>
+      </ul>
+    </section>
+
+  </main>
+</body>
+</html>
+
+
+<!-- Unique: Blood Raven -->
+<section class="unique-monster" id="blood-raven">
+  <h3>Unique: Blood Raven</h3>
+  <p><strong>Location:</strong> Burial Grounds – Cold Plains (Act I)</p>
+  <table>
+    <thead>
+      <tr><th>Difficulty</th><th>Level</th><th>Health</th><th>Damage</th><th>Resistances</th><th>Abilities</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Normal</td><td>10</td><td>300</td><td>22–30</td><td>Cold 50%</td><td>Summon Skeletons, Cold Arrows</td></tr>
+      <tr><td>Nightmare</td><td>43</td><td>2600</td><td>66–90</td><td>Cold Immune</td><td>Multishot, Fast Run</td></tr>
+      <tr><td>Hell</td><td>80</td><td>9200</td><td>108–130</td><td>Cold Immune</td><td>Frenzied Summons, Cold Splash</td></tr>
+    </tbody>
+  </table>
+  <h4>Lore</h4>
+  <p>Once a hero of the Sisterhood of the Sightless Eye, Blood Raven was corrupted by Andariel. Now she raises the dead to do her bidding.</p>
+  <h4>Notable Drops</h4>
+  <ul>
+    <li><strong>Normal:</strong> Magic Bow, Scrolls</li>
+    <li><strong>Nightmare:</strong> Rare Bows, Jewels</li>
+    <li><strong>Hell:</strong> Unique Bows, High runes</li>
+  </ul>
+  <h4>Affixes</h4>
+  <ul>
+    <li><strong>Prefix:</strong> Possessed – Faster movement, Uninterruptible</li>
+    <li><strong>Suffix:</strong> of Resurrection – Raises minions constantly</li>
+  </ul>
+</section>
+
+<!-- Unique: Pitspawn Fouldog -->
+<section class="unique-monster" id="pitspawn-fouldog">
+  <h3>Unique: Pitspawn Fouldog</h3>
+  <p><strong>Location:</strong> Jail Level 2 – Act I</p>
+  <table>
+    <thead>
+      <tr><th>Difficulty</th><th>Level</th><th>Health</th><th>Damage</th><th>Resistances</th><th>Abilities</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Normal</td><td>13</td><td>350</td><td>28–36</td><td>Poison 50%</td><td>Poison Nova, Fast Attack</td></tr>
+      <tr><td>Nightmare</td><td>46</td><td>2900</td><td>78–98</td><td>Poison Immune</td><td>Extra Fast, Poison Enchanted</td></tr>
+      <tr><td>Hell</td><td>83</td><td>9900</td><td>118–145</td><td>Poison Immune</td><td>Rapid Movement, Blight Aura</td></tr>
+    </tbody>
+  </table>
+  <h4>Lore</h4>
+  <p>Pitspawn Fouldog is a hideous demon locked within the prison, its presence spreading corruption through the stones.</p>
+  <h4>Notable Drops</h4>
+  <ul>
+    <li><strong>Normal:</strong> Poison gear, Magic flails</li>
+    <li><strong>Nightmare:</strong> Rare weapons, runes</li>
+    <li><strong>Hell:</strong> Unique polearms, Mal–Gul runes</li>
+  </ul>
+  <h4>Affixes</h4>
+  <ul>
+    <li><strong>Prefix:</strong> Plagued – Poison Nova burst</li>
+    <li><strong>Suffix:</strong> of Speed – Increased attack speed</li>
+  </ul>
+</section>
+
+<!-- Unique: Geleb Flamefinger -->
+<section class="unique-monster" id="geleb-flamefinger">
+  <h3>Unique: Geleb Flamefinger</h3>
+  <p><strong>Location:</strong> Catacombs Level 3 – Act I</p>
+  <table>
+    <thead>
+      <tr><th>Difficulty</th><th>Level</th><th>Health</th><th>Damage</th><th>Resistances</th><th>Abilities</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Normal</td><td>15</td><td>380</td><td>30–38</td><td>Fire 50%</td><td>Fireball Enchanted</td></tr>
+      <tr><td>Nightmare</td><td>48</td><td>3100</td><td>82–104</td><td>Fire Immune</td><td>Fire Aura, Extra Strong</td></tr>
+      <tr><td>Hell</td><td>85</td><td>10400</td><td>130–158</td><td>Fire Immune</td><td>Explosion on death</td></tr>
+    </tbody>
+  </table>
+  <h4>Lore</h4>
+  <p>Geleb Flamefinger is a pyromancer demon, guarding the final chamber before Andariel’s lair. His hands constantly glow with molten heat.</p>
+  <h4>Notable Drops</h4>
+  <ul>
+    <li><strong>Normal:</strong> Fire Staffs, Mana potions</li>
+    <li><strong>Nightmare:</strong> Rare Orbs, Tal–Shael runes</li>
+    <li><strong>Hell:</strong> Unique Sorceress gear, Um–Ist runes</li>
+  </ul>
+  <h4>Affixes</h4>
+  <ul>
+    <li><strong>Prefix:</strong> Burning – Fire Aura</li>
+    <li><strong>Suffix:</strong> of Combustion – Explodes on death</li>
+  </ul>
+</section>
+
+<!-- Unique: Bone Ash -->
+<section class="unique-monster" id="bone-ash">
+  <h3>Unique: Bone Ash</h3>
+  <p><strong>Location:</strong> Cathedral – Inner Cloister (Act I)</p>
+  <table>
+    <thead>
+      <tr><th>Difficulty</th><th>Level</th><th>Health</th><th>Damage</th><th>Resistances</th><th>Abilities</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Normal</td><td>14</td><td>360</td><td>28–36</td><td>Cold 50%</td><td>Cold spells, Bone Armor</td></tr>
+      <tr><td>Nightmare</td><td>47</td><td>3000</td><td>80–102</td><td>Cold Immune</td><td>Chilling Aura, Magic Resistant</td></tr>
+      <tr><td>Hell</td><td>84</td><td>10000</td><td>125–150</td><td>Cold Immune</td><td>Freezes on Hit, Bone Wall</td></tr>
+    </tbody>
+  </table>
+  <h4>Lore</h4>
+  <p>Bone Ash was once a priest corrupted into a ghostly guardian of the cathedral. His cold wrath chills the soul of any who enter.</p>
+  <h4>Notable Drops</h4>
+  <ul>
+    <li><strong>Normal:</strong> Magic Wands, cold scrolls</li>
+    <li><strong>Nightmare:</strong> Rare Necro gear, runes</li>
+    <li><strong>Hell:</strong> Unique wands, Lum–Um runes</li>
+  </ul>
+  <h4>Affixes</h4>
+  <ul>
+    <li><strong>Prefix:</strong> Icy – Cold aura</li>
+    <li><strong>Suffix:</strong> of Entombment – Summons bone walls</li>
+  </ul>
+</section>
+
+<!-- Unique: Griswold -->
+<section class="unique-monster" id="griswold">
+  <h3>Unique: Griswold</h3>
+  <p><strong>Location:</strong> Tristram – Cain Rescue Quest</p>
+  <table>
+    <thead>
+      <tr><th>Difficulty</th><th>Level</th><th>Health</th><th>Damage</th><th>Resistances</th><th>Abilities</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Normal</td><td>9</td><td>350</td><td>24–32</td><td>Physical 50%</td><td>Massive melee, high HP</td></tr>
+      <tr><td>Nightmare</td><td>44</td><td>2500</td><td>74–90</td><td>Physical Resist</td><td>Frenzy, Stun</td></tr>
+      <tr><td>Hell</td><td>81</td><td>9600</td><td>115–138</td><td>Physical Immune</td><td>Unrelenting melee, Unstoppable</td></tr>
+    </tbody>
+  </table>
+  <h4>Lore</h4>
+  <p>Griswold, once the blacksmith of Tristram, was twisted into a mindless abomination. His cursed anvil strikes ring forever in madness.</p>
+  <h4>Notable Drops</h4>
+  <ul>
+    <li><strong>Normal:</strong> Heavy weapons, gold</li>
+    <li><strong>Nightmare:</strong> Rare armor, runes</li>
+    <li><strong>Hell:</strong> Unique weaponry, elite runes</li>
+  </ul>
+  <h4>Affixes</h4>
+  <ul>
+    <li><strong>Prefix:</strong> Brutal – Increases physical damage</li>
+    <li><strong>Suffix:</strong> of Carnage – Splash AoE</li>
+  </ul>
+</section>
