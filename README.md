@@ -1,0 +1,2 @@
+# diabloii
+Diablo II Bestiary
